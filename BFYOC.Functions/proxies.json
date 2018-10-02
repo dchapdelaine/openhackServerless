@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "GetUser": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/users/{id}"
+      },
+      "backendUri": "https://serverlessohuser.trafficmanager.net/api/GetUser",
+      "requestOverrides": {
+        "backend.request.querystring.userId": "{id}"
+      }
+    }
+  }
+}
