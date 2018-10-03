@@ -1,7 +1,7 @@
 ﻿{
   "$schema": "http://json.schemastore.org/proxies",
   "proxies": {
-    "GetUser": {
+    "GetUser_Proxy": {
       "matchCondition": {
         "methods": [ "GET" ],
         "route": "/api/users/{id}"
@@ -10,6 +10,44 @@
       "requestOverrides": {
         "backend.request.querystring.userId": "{id}"
       }
+    },
+    "GetProduct_Proxy": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/products/{id}"
+      },
+      "backendUri": "https://serverlessohproduct.trafficmanager.net/api/GetProduct",
+      "requestOverrides": {
+        "backend.request.querystring.productId": "{id}"
+      }
+    },
+    "GetProducts_Proxy": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/products"
+      },
+      "backendUri": "https://serverlessohproduct.trafficmanager.net/api/GetProducts"
+    },
+    "GetRatings_Proxy": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/ratings"
+      },
+      "backendUri": "https://localhost/api/GetRatings"
+    },
+    "GetRating_Proxy": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/ratings/{id}"
+      },
+      "backendUri": "https://localhost/api/GetRating/{id}"
+    },
+    "CreateRating_Proxy": {
+      "matchCondition": {
+        "methods": [ "POST" ],
+        "route": "/api/ratings"
+      },
+      "backendUri": "https://localhost/api/CreateRating"
     }
   }
 }

@@ -16,7 +16,7 @@ namespace BFYOC.Functions
   {
     [FunctionName("CreateRating")]
     public static async Task<HttpResponseMessage> CreateRating(
-      [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "ratings")] HttpRequestMessage req,
+      [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequestMessage req,
       [DocumentDB(databaseName: "byoc", collectionName: "ratings", ConnectionStringSetting = "CosmosDBConnection")] IAsyncCollector<Rating> ratingsOut,
       TraceWriter log)
     {
@@ -56,7 +56,7 @@ namespace BFYOC.Functions
 
     [FunctionName("GetRating")]
     public static HttpResponseMessage GetRating(
-      [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "ratings/{id}")]HttpRequestMessage req,
+      [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "GetRating/{id}")]HttpRequestMessage req,
       [DocumentDB(databaseName: "byoc", collectionName: "ratings", ConnectionStringSetting = "CosmosDBConnection", Id = "{id}")] Rating rating,
       TraceWriter log)
     {
@@ -68,7 +68,7 @@ namespace BFYOC.Functions
     }
     [FunctionName("GetRatings")]
     public static HttpResponseMessage GetRatings(
-      [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "ratings")]HttpRequestMessage req,
+      [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)]HttpRequestMessage req,
       [DocumentDB(databaseName: "byoc", collectionName: "ratings", ConnectionStringSetting = "CosmosDBConnection", SqlQuery = "SELECT * FROM c")] IEnumerable<Rating> ratings,
       TraceWriter log)
     {
