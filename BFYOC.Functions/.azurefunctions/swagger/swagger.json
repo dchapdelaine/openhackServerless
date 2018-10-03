@@ -1,0 +1,214 @@
+﻿{
+  "swagger": "2.0",
+  "info": {
+    "title": "byocfunctionapp.azurewebsites.net",
+    "version": "1.0.0"
+  },
+  "host": "byocfunctionapp.azurewebsites.net",
+  "basePath": "/",
+  "schemes": [
+    "https",
+    "http"
+  ],
+  "paths": {
+    "/api/users/{id}": {
+      "get": {
+        "operationId": "/api/users/{id}/get",
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+        "responses": {
+          "200": {
+            "description": "Success operation"
+          }
+        },
+        "security": [
+          {
+            "apikeyQuery": []
+          }
+        ]
+      }
+    },
+    "/api/products/{id}": {
+      "get": {
+        "operationId": "/api/products/{id}/get",
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+        "responses": {
+          "200": {
+            "description": "Success operation"
+          }
+        },
+        "security": [
+          {
+            "apikeyQuery": []
+          }
+        ]
+      }
+    },
+    "/api/ratings/{id}": {
+      "get": {
+        "operationId": "/api/ratings/{id}/get",
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+        "responses": {
+          "200": {
+            "description": "Success operation",
+            "schema": {
+              "$ref": "#/definitions/Rating"
+            }
+          }
+        },
+        "security": [
+          {
+            "apikeyQuery": []
+          }
+        ]
+      }
+    },
+    "/api/products": {
+      "get": {
+        "operationId": "/api/products/get",
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [],
+        "parameters": [],
+        "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+        "responses": {
+          "200": {
+            "description": "Success operation"
+          }
+        },
+        "security": [
+          {
+            "apikeyQuery": []
+          }
+        ]
+      }
+    },
+    "/api/ratings": {
+      "get": {
+        "operationId": "/api/ratings/get",
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [],
+        "parameters": [],
+        "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+        "responses": {
+          "200": {
+            "description": "Success operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Rating"
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "apikeyQuery": []
+          }
+        ]
+      },
+      "post": {
+        "operationId": "/api/ratings/post",
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Rating for ice cream",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Rating"
+            }
+          }
+        ],
+        "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+        "responses": {
+          "200": {
+            "description": "Success operation"
+          }
+        },
+        "security": [
+          {
+            "apikeyQuery": []
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "Rating": {
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string"
+        },
+        "productId": {
+          "type": "string"
+        },
+        "locationName": {
+          "type": "string"
+        },
+        "rating": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "userNotes": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "Rating"
+      }
+    }
+  },
+  "securityDefinitions": {
+    "apikeyQuery": {
+      "type": "apiKey",
+      "name": "code",
+      "in": "query"
+    }
+  }
+}
