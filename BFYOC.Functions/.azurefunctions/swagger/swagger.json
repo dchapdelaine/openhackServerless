@@ -109,7 +109,13 @@
         "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
         "responses": {
           "200": {
-            "description": "Success operation"
+            "description": "Success operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Product"
+              }
+            }
           }
         },
         "security": [
@@ -167,7 +173,13 @@
         "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
         "responses": {
           "200": {
-            "description": "Success operation"
+            "description": "Success operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Product"
+              }
+            }
           }
         },
         "security": [
@@ -196,6 +208,23 @@
           "format": "int64"
         },
         "userNotes": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "Rating"
+      }
+    },
+    "Product": {
+      "type": "object",
+      "properties": {
+        "productId": {
+          "type": "string"
+        },
+        "productName": {
+          "type": "string"
+        },
+        "productDescription": {
           "type": "string"
         }
       },
