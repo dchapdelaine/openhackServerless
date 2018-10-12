@@ -9,6 +9,7 @@ namespace BFYOC.Functions
     public class Order
     {
         public string dateTime { get; set; }
+        public string id { get; set; }
         public List<OrderLineItem> lineItems { get; set; }
         public string locationId { get; set; }
         public string locationName { get; set; }

@@ -108,7 +108,8 @@ namespace BFYOC.Functions
                     poNumber = r.ponumber,
                     totalCost = double.Parse(r.totalcost),
                     totalTax = double.Parse(r.totaltax),
-                    lineItems = new List<OrderLineItem>()
+                    lineItems = new List<OrderLineItem>(),
+                    id = r.ponumber
                 });
 
                 var products = productInformationReader.GetRecords<dynamic>().ToDictionary(r => (string)r.productid, r => r);
@@ -132,8 +133,8 @@ namespace BFYOC.Functions
             }
         }
 
-        [FunctionName("ProcessingExistingBlogs")]
-        public static async Task<HttpResponseMessage> ProcessingExistingBlogs(
+        [FunctionName("ProcessingExistingBlobs")]
+        public static async Task<HttpResponseMessage> ProcessingExistingBlobs(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequestMessage req,
             [OrchestrationClient] DurableOrchestrationClient starter,
             TraceWriter log)
@@ -142,6 +143,7 @@ namespace BFYOC.Functions
             var containerRef = client.GetContainerReference("orders");
             foreach (var blob in containerRef.ListBlobs())
             {
+                log.Info($"Processing {blob.Uri}");
                 await ProcessBlob(blob.Uri.ToString(), starter, log);
             }
 
@@ -156,17 +158,6 @@ namespace BFYOC.Functions
         {
             log.Info("Saving documents");
             await Task.WhenAll(orders.Select(o => ordersOut.AddAsync(o)));
-        }
-
-        [FunctionName("SendEvent")]
-        public static async Task<HttpResponseMessage> SendEvent(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequestMessage req,
-            [OrchestrationClient] DurableOrchestrationClient starter,
-            TraceWriter log)
-        {
-            await starter.RaiseEventAsync("20181009210400", "", "data");
-
-            return req.CreateResponse(System.Net.HttpStatusCode.Accepted);
         }
 
         private static async Task ProcessBlob(string blobUrl, DurableOrchestrationClient starter, TraceWriter log)
