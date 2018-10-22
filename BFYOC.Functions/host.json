@@ -2,5 +2,10 @@
   "swagger": {
     "enabled": true
   },
-  "functionTimeout": "00:10:00"
+  "functionTimeout": "00:10:00",
+  "eventHub": {
+    "maxBatchSize": 64,
+    "prefetchCount": 256,
+    "batchCheckpointFrequency": 1
+  }
 }
