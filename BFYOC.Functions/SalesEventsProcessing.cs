@@ -10,7 +10,7 @@ namespace BFYOC.Functions
     {
         [FunctionName("SalesProcessing")]
         public static async Task Run(
-            [EventHubTrigger("salesevents", Connection = "SalesEventHubConnection")]string[] salesEvents,
+            [EventHubTrigger("salesevents", Connection = "EventHubConnection")]string[] salesEvents,
             [DocumentDB(databaseName: "byoc", collectionName: "salesevents", ConnectionStringSetting = "CosmosDBConnection")] IAsyncCollector<string> salesEventsOut,
             TraceWriter log)
         {
