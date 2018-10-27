@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BFYOC.Functions", "BFYOC.Functions\BFYOC.Functions.csproj", "{5FB04259-2A30-4FF5-8E75-1F6FD64504A6}"
 EndProject
+Project("{E6C563F2-BDC2-4A24-ACBF-01715157DCBB}") = "ReportingASA", "ReportingASA\ReportingASA.asaproj", "{17D8203F-A4FD-4579-AF0E-4889C35B1B79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5FB04259-2A30-4FF5-8E75-1F6FD64504A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FB04259-2A30-4FF5-8E75-1F6FD64504A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FB04259-2A30-4FF5-8E75-1F6FD64504A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D8203F-A4FD-4579-AF0E-4889C35B1B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D8203F-A4FD-4579-AF0E-4889C35B1B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D8203F-A4FD-4579-AF0E-4889C35B1B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D8203F-A4FD-4579-AF0E-4889C35B1B79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

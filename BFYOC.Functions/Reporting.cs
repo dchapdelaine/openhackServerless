@@ -1,6 +1,8 @@
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using CsvHelper;
 using Microsoft.Azure.Documents;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
@@ -10,31 +12,14 @@ namespace BFYOC.Functions
 {
     public static class Reporting
     {
-        [FunctionName("ReportingRatings")]
-        public static async Task ReportingRatings([CosmosDBTrigger(
-            databaseName: "byoc",
-            collectionName: "ratings",
-            ConnectionStringSetting = "CosmosDBConnection",
-            LeaseCollectionName = "leases",
-            CreateLeaseCollectionIfNotExists = true)]IReadOnlyList<Document> documents,
-            [EventHub("events", Connection = "EventHubConnection")]IAsyncCollector<Document> outputs,
-            TraceWriter log)
-        {
-            log.Info($"Processing {documents.Count} documents");
-            foreach(var document in documents)
-            {
-                await outputs.AddAsync(document);
-            }
-        }
-
-        [FunctionName("ReportingSales")]
-        public static async Task ReportingSales([CosmosDBTrigger(
+        [FunctionName("ReportGenerator")]
+        public static async Task ReportGenerator([CosmosDBTrigger(
             databaseName: "byoc",
             collectionName: "salesevents",
             ConnectionStringSetting = "CosmosDBConnection",
             LeaseCollectionName = "leases",
             CreateLeaseCollectionIfNotExists = true)]IReadOnlyList<Document> documents,
-            [EventHub("events", Connection = "EventHubConnection")]
+            [EventHub("changeeventsales", Connection = "EventHubConnection")]
             IAsyncCollector<Document> outputs,
             TraceWriter log)
         {
@@ -52,7 +37,7 @@ namespace BFYOC.Functions
             ConnectionStringSetting = "CosmosDBConnection",
             LeaseCollectionName = "leases",
             CreateLeaseCollectionIfNotExists = true)]IReadOnlyList<Document> documents,
-            [EventHub("events", Connection = "EventHubConnection")]
+            [EventHub("changeeventorders", Connection = "EventHubConnection")]
             IAsyncCollector<Document> outputs,
             TraceWriter log)
         {
@@ -60,6 +45,32 @@ namespace BFYOC.Functions
             foreach (var document in documents)
             {
                 await outputs.AddAsync(document);
+            }
+        }
+
+        [FunctionName("ReportingRatings")]
+        public static async Task ReportingRatings([CosmosDBTrigger(
+            databaseName: "byoc",
+            collectionName: "ratings",
+            ConnectionStringSetting = "CosmosDBConnection",
+            LeaseCollectionName = "leases",
+            CreateLeaseCollectionIfNotExists = true)]IReadOnlyList<Document> documents,
+            [EventHub("changeeventratings", Connection = "EventHubConnection")]IAsyncCollector<Document> outputs,
+            TraceWriter log)
+        {
+            log.Info($"Processing {documents.Count} documents");
+            foreach (var document in documents)
+            {
+                await outputs.AddAsync(document);
+            }
+        }
+
+        [FunctionName("ReportingSales")]
+        public static async Task ReportingSales([EventHubTrigger("reports", Connection = "EventHubConnection")]string reportData,
+            TraceWriter log)
+        {
+            using (var csvReader = new CsvReader(new StringReader(reportData)))
+            {
             }
         }
     }

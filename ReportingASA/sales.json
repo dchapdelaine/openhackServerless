@@ -1,0 +1,5274 @@
+[
+  {
+    "body": {
+      "id": "59da7182-2cc7-421c-9bd8-32b69fccc00a",
+      "_rid": "TjsbAO+SCJzzZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzzZjMAAAAAAA==/",
+      "_ts": 1540573725,
+      "_etag": "\"00003d0c-0000-0000-0000-5bd34a1d0000\"",
+      "header": {
+        "salesNumber": "74107f08-693b-f60e-830d-3d8b8378adef",
+        "dateTime": "2018-10-25 22:52:07",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "11.97",
+        "totalTax": "1.20"
+      },
+      "details": [
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        }
+      ],
+      "_lsn": 3368693
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:08:48.791Z",
+    "offset": "10520",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 7,
+    "serializedSizeInBytes": 923,
+    "systemProperties": {
+      "x-opt-sequence-number": 7,
+      "x-opt-offset": "10520",
+      "x-opt-enqueued-time": "2018-10-26T17:08:48.791Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:08:48.791Z",
+      "SequenceNumber": 7,
+      "Offset": "10520"
+    }
+  },
+  {
+    "body": {
+      "id": "8a386275-89cb-49b0-ae82-bc5809aabfd4",
+      "_rid": "TjsbAO+SCJxMZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxMZjMAAAAAAA==/",
+      "_ts": 1540569548,
+      "_etag": "\"0000680b-0000-0000-0000-5bd339cc0000\"",
+      "header": {
+        "salesNumber": "12ed3921-553c-5994-c1c7-60c6c4b6f474",
+        "dateTime": "2018-10-25 22:46:03",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "51.90",
+        "totalTax": "5.19"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "3",
+          "unitCost": "5.99",
+          "totalCost": "17.97",
+          "totalTax": "1.80",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "4",
+          "unitCost": "3.99",
+          "totalCost": "15.96",
+          "totalTax": "1.60",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        }
+      ],
+      "_lsn": 3368526
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:59:10.126Z",
+    "offset": "3056",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 2,
+    "serializedSizeInBytes": 1864,
+    "systemProperties": {
+      "x-opt-sequence-number": 2,
+      "x-opt-offset": "3056",
+      "x-opt-enqueued-time": "2018-10-26T15:59:10.126Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:59:10.126Z",
+      "SequenceNumber": 2,
+      "Offset": "3056"
+    }
+  },
+  {
+    "body": {
+      "id": "8e21cc3c-3969-4474-9979-e1198bf3cb55",
+      "_rid": "TjsbAO+SCJxNZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxNZjMAAAAAAA==/",
+      "_ts": 1540569551,
+      "_etag": "\"0000690b-0000-0000-0000-5bd339cf0000\"",
+      "header": {
+        "salesNumber": "8439ef88-78b4-3a8c-6cc8-3f8e90670892",
+        "dateTime": "2018-10-26 08:59:51",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "51.91",
+        "totalTax": "5.19"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "1",
+          "unitCost": "15.99",
+          "totalCost": "15.99",
+          "totalTax": "1.60",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "4",
+          "unitCost": "2.99",
+          "totalCost": "11.96",
+          "totalTax": "1.20",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        }
+      ],
+      "_lsn": 3368527
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:59:15.405Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 1767,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T15:59:15.405Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:59:15.405Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": {
+      "id": "8ebd3991-2c0a-457d-9ef9-32051b128056",
+      "_rid": "TjsbAO+SCJxxZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxxZjMAAAAAAA==/",
+      "_ts": 1540570862,
+      "_etag": "\"0000900b-0000-0000-0000-5bd33eee0000\"",
+      "header": {
+        "salesNumber": "ddab7b05-7e62-e7c8-abcc-a6b2591434f9",
+        "dateTime": "2018-10-26 10:19:46",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "51.88",
+        "totalTax": "5.19"
+      },
+      "details": [
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "2",
+          "unitCost": "2.99",
+          "totalCost": "5.98",
+          "totalTax": "0.60",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "3",
+          "unitCost": "5.99",
+          "totalCost": "17.97",
+          "totalTax": "1.80",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368563
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:21:03.57Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 2130,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T16:21:03.57Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:21:03.57Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": {
+      "id": "88f44ede-20e9-49ba-9f4f-541edc0e60e6",
+      "_rid": "TjsbAO+SCJxLZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxLZjMAAAAAAA==/",
+      "_ts": 1540569548,
+      "_etag": "\"0000670b-0000-0000-0000-5bd339cc0000\"",
+      "header": {
+        "salesNumber": "f64f33e7-d92d-b824-7f9b-b39e18b72467",
+        "dateTime": "2018-10-26 12:20:07",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "101.87",
+        "totalTax": "10.19"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "4",
+          "unitCost": "15.99",
+          "totalCost": "63.96",
+          "totalTax": "6.40",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "3",
+          "unitCost": "2.99",
+          "totalCost": "8.97",
+          "totalTax": "0.90",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        }
+      ],
+      "_lsn": 3368525
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:59:10.126Z",
+    "offset": "944",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 1,
+    "serializedSizeInBytes": 2071,
+    "systemProperties": {
+      "x-opt-sequence-number": 1,
+      "x-opt-offset": "944",
+      "x-opt-enqueued-time": "2018-10-26T15:59:10.126Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:59:10.126Z",
+      "SequenceNumber": 1,
+      "Offset": "944"
+    }
+  },
+  {
+    "body": {
+      "id": "06cd5012-0909-44b7-93ba-b265e996a601",
+      "_rid": "TjsbAO+SCJxAZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxAZjMAAAAAAA==/",
+      "_ts": 1540569522,
+      "_etag": "\"00005c0b-0000-0000-0000-5bd339b20000\"",
+      "header": {
+        "salesNumber": "e0b2ee89-ddbd-5bcd-9b8c-356ce8882982",
+        "dateTime": "2018-10-26 05:20:40",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "11.97",
+        "totalTax": "1.20"
+      },
+      "details": [
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        }
+      ],
+      "_lsn": 3368514
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:44.214Z",
+    "offset": "6520",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 4,
+    "serializedSizeInBytes": 1200,
+    "systemProperties": {
+      "x-opt-sequence-number": 4,
+      "x-opt-offset": "6520",
+      "x-opt-enqueued-time": "2018-10-26T15:58:44.214Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:44.214Z",
+      "SequenceNumber": 4,
+      "Offset": "6520"
+    }
+  },
+  {
+    "body": {
+      "id": "9744a6ed-59d4-4093-817b-8ddd2da06cb0",
+      "_rid": "TjsbAO+SCJw7ZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw7ZjMAAAAAAA==/",
+      "_ts": 1540569517,
+      "_etag": "\"0000570b-0000-0000-0000-5bd339ad0000\"",
+      "header": {
+        "salesNumber": "c5bcccdf-e655-32ab-33ec-891c013ab971",
+        "dateTime": "2018-10-25 20:19:20",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "46.39",
+        "totalTax": "4.64"
+      },
+      "details": [
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "4",
+          "unitCost": "2.99",
+          "totalCost": "11.96",
+          "totalTax": "1.20",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "3",
+          "unitCost": "3.49",
+          "totalCost": "10.47",
+          "totalTax": "1.05",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        }
+      ],
+      "_lsn": 3368509
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:39.017Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 1776,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T15:58:39.017Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:39.017Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": {
+      "id": "74a38a46-76ea-4747-914b-d4536781983f",
+      "_rid": "TjsbAO+SCJwLZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwLZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"0000270b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "ca7217fd-845b-774b-7b70-30900b9eb413",
+        "dateTime": "2018-10-26 13:01:24",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "11.98",
+        "totalTax": "1.20"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368461
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "19144",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 12,
+    "serializedSizeInBytes": 938,
+    "systemProperties": {
+      "x-opt-sequence-number": 12,
+      "x-opt-offset": "19144",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 12,
+      "Offset": "19144"
+    }
+  },
+  {
+    "body": {
+      "id": "9b59a7b7-477e-4968-8f68-ac29e36e4e9c",
+      "_rid": "TjsbAO+SCJxKZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxKZjMAAAAAAA==/",
+      "_ts": 1540569548,
+      "_etag": "\"0000660b-0000-0000-0000-5bd339cc0000\"",
+      "header": {
+        "salesNumber": "6ad02ea2-6345-8e2e-41f4-1757f39edaad",
+        "dateTime": "2018-10-26 10:30:16",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "8.99",
+        "totalTax": "0.90"
+      },
+      "details": [
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        }
+      ],
+      "_lsn": 3368524
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:59:10.126Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 906,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T15:59:10.126Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:59:10.126Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": {
+      "id": "088ab255-7227-4b6b-b170-960a7e2832c1",
+      "_rid": "TjsbAO+SCJwKZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwKZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"0000260b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "468884de-5b9d-d784-a7b3-e9965b51a4a8",
+        "dateTime": "2018-10-26 11:37:13",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "17.94",
+        "totalTax": "1.79"
+      },
+      "details": [
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "6",
+          "unitCost": "2.99",
+          "totalCost": "17.94",
+          "totalTax": "1.79",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        }
+      ],
+      "_lsn": 3368460
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "18208",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 11,
+    "serializedSizeInBytes": 895,
+    "systemProperties": {
+      "x-opt-sequence-number": 11,
+      "x-opt-offset": "18208",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 11,
+      "Offset": "18208"
+    }
+  },
+  {
+    "body": {
+      "id": "43237585-971c-4043-9ad9-d56825536491",
+      "_rid": "TjsbAO+SCJymZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJymZzMAAAAAAA==/",
+      "_ts": 1540574265,
+      "_etag": "\"0000f20c-0000-0000-0000-5bd34c390000\"",
+      "header": {
+        "salesNumber": "120a38cd-ac56-1582-d825-bce1c39bfe92",
+        "dateTime": "2018-10-25 17:29:23",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "83.90",
+        "totalTax": "8.39"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "3",
+          "unitCost": "15.99",
+          "totalCost": "47.97",
+          "totalTax": "4.80",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        }
+      ],
+      "_lsn": 3368872
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:17:45.978Z",
+    "offset": "19096",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 12,
+    "serializedSizeInBytes": 1801,
+    "systemProperties": {
+      "x-opt-sequence-number": 12,
+      "x-opt-offset": "19096",
+      "x-opt-enqueued-time": "2018-10-26T17:17:45.978Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:17:45.978Z",
+      "SequenceNumber": 12,
+      "Offset": "19096"
+    }
+  },
+  {
+    "body": {
+      "id": "cfe5b1fb-c6ee-4992-abf8-0e75e209909a",
+      "_rid": "TjsbAO+SCJwJZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwJZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"0000250b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "e6ff6e55-ff25-1f21-93e9-84bd29c6a0d3",
+        "dateTime": "2018-10-25 21:27:44",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "35.92",
+        "totalTax": "3.59"
+      },
+      "details": [
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "2",
+          "unitCost": "3.49",
+          "totalCost": "6.98",
+          "totalTax": "0.70",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368459
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "16336",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 10,
+    "serializedSizeInBytes": 1832,
+    "systemProperties": {
+      "x-opt-sequence-number": 10,
+      "x-opt-offset": "16336",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 10,
+      "Offset": "16336"
+    }
+  },
+  {
+    "body": {
+      "id": "3b55bcec-5849-4908-8c09-4dd88d6cefc2",
+      "_rid": "TjsbAO+SCJykZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJykZzMAAAAAAA==/",
+      "_ts": 1540574263,
+      "_etag": "\"0000f00c-0000-0000-0000-5bd34c370000\"",
+      "header": {
+        "salesNumber": "9b1ab9cb-ed73-21d4-027b-b306b8378407",
+        "dateTime": "2018-10-26 07:55:36",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "36.43",
+        "totalTax": "3.64"
+      },
+      "details": [
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "1",
+          "unitCost": "3.49",
+          "totalCost": "3.49",
+          "totalTax": "0.35",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "3",
+          "unitCost": "5.99",
+          "totalCost": "17.97",
+          "totalTax": "1.80",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        }
+      ],
+      "_lsn": 3368871
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:17:45.962Z",
+    "offset": "25816",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 17,
+    "serializedSizeInBytes": 1523,
+    "systemProperties": {
+      "x-opt-sequence-number": 17,
+      "x-opt-offset": "25816",
+      "x-opt-enqueued-time": "2018-10-26T17:17:45.962Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:17:45.962Z",
+      "SequenceNumber": 17,
+      "Offset": "25816"
+    }
+  },
+  {
+    "body": {
+      "id": "677ec497-24a1-451c-b925-3a0ca2e1dd04",
+      "_rid": "TjsbAO+SCJw-ZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw-ZzMAAAAAAA==/",
+      "_ts": 1540573950,
+      "_etag": "\"00008a0c-0000-0000-0000-5bd34afe0000\"",
+      "header": {
+        "salesNumber": "2b5be7f2-c148-0664-7990-1cb7f3008b2e",
+        "dateTime": "2018-10-26 11:53:53",
+        "locationId": "KKK111",
+        "locationName": "Margie's Travel",
+        "locationAddress": "675 Tyler Place",
+        "locationPostcode": "98112",
+        "totalCost": "73.89",
+        "totalTax": "7.39"
+      },
+      "details": [
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "2",
+          "unitCost": "15.99",
+          "totalCost": "31.98",
+          "totalTax": "3.20",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "5",
+          "unitCost": "2.99",
+          "totalCost": "14.95",
+          "totalTax": "1.50",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "3",
+          "unitCost": "5.99",
+          "totalCost": "17.97",
+          "totalTax": "1.80",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368769
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:12:34.675Z",
+    "offset": "17280",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 11,
+    "serializedSizeInBytes": 1775,
+    "systemProperties": {
+      "x-opt-sequence-number": 11,
+      "x-opt-offset": "17280",
+      "x-opt-enqueued-time": "2018-10-26T17:12:34.675Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:12:34.675Z",
+      "SequenceNumber": 11,
+      "Offset": "17280"
+    }
+  },
+  {
+    "body": {
+      "id": "c8d56af2-3f25-4fea-a5d9-1ddb9aed6e7e",
+      "_rid": "TjsbAO+SCJzcZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzcZjMAAAAAAA==/",
+      "_ts": 1540573637,
+      "_etag": "\"0000260c-0000-0000-0000-5bd349c50000\"",
+      "header": {
+        "salesNumber": "0b374b03-d9fe-f0dc-7cda-1bce7cefb8f3",
+        "dateTime": "2018-10-25 19:50:08",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "39.92",
+        "totalTax": "3.99"
+      },
+      "details": [
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "4",
+          "unitCost": "3.99",
+          "totalCost": "15.96",
+          "totalTax": "1.60",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "4",
+          "unitCost": "5.99",
+          "totalCost": "23.96",
+          "totalTax": "2.40",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368670
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:18.217Z",
+    "offset": "13896",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 8,
+    "serializedSizeInBytes": 1243,
+    "systemProperties": {
+      "x-opt-sequence-number": 8,
+      "x-opt-offset": "13896",
+      "x-opt-enqueued-time": "2018-10-26T17:07:18.217Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:18.217Z",
+      "SequenceNumber": 8,
+      "Offset": "13896"
+    }
+  },
+  {
+    "body": {
+      "id": "3f629fe3-cdb1-4cd2-ae50-d4527fabd940",
+      "_rid": "TjsbAO+SCJwIZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwIZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"0000240b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "26467442-0d2d-fa50-6a40-585f78dd0a84",
+        "dateTime": "2018-10-26 11:06:18",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "41.41",
+        "totalTax": "4.14"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "2",
+          "unitCost": "2.99",
+          "totalCost": "5.98",
+          "totalTax": "0.60",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "3",
+          "unitCost": "3.49",
+          "totalCost": "10.47",
+          "totalTax": "1.05",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        }
+      ],
+      "_lsn": 3368458
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "14232",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 9,
+    "serializedSizeInBytes": 2060,
+    "systemProperties": {
+      "x-opt-sequence-number": 9,
+      "x-opt-offset": "14232",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 9,
+      "Offset": "14232"
+    }
+  },
+  {
+    "body": {
+      "id": "b5c442da-7887-46d5-9e5d-7a60fe6b80c7",
+      "_rid": "TjsbAO+SCJylZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJylZzMAAAAAAA==/",
+      "_ts": 1540574263,
+      "_etag": "\"0000f10c-0000-0000-0000-5bd34c370000\"",
+      "header": {
+        "salesNumber": "aad27e81-91e1-5840-55b1-6f1f942f908b",
+        "dateTime": "2018-10-26 14:46:20",
+        "locationId": "KKK111",
+        "locationName": "Margie's Travel",
+        "locationAddress": "675 Tyler Place",
+        "locationPostcode": "98112",
+        "totalCost": "11.98",
+        "totalTax": "1.20"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368870
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:17:45.962Z",
+    "offset": "24840",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 16,
+    "serializedSizeInBytes": 934,
+    "systemProperties": {
+      "x-opt-sequence-number": 16,
+      "x-opt-offset": "24840",
+      "x-opt-enqueued-time": "2018-10-26T17:17:45.962Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:17:45.962Z",
+      "SequenceNumber": 16,
+      "Offset": "24840"
+    }
+  },
+  {
+    "body": {
+      "id": "9cf11dca-573e-4cc8-8bdd-13cceb66c23a",
+      "_rid": "TjsbAO+SCJw+ZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw+ZzMAAAAAAA==/",
+      "_ts": 1540573950,
+      "_etag": "\"0000890c-0000-0000-0000-5bd34afe0000\"",
+      "header": {
+        "salesNumber": "6725a486-e410-5873-9106-2b5de4c1f368",
+        "dateTime": "2018-10-26 17:02:16",
+        "locationId": "LLL222",
+        "locationName": "Munson's Pickles and Preserves Farm",
+        "locationAddress": "3453 99th Place",
+        "locationPostcode": "98121",
+        "totalCost": "49.44",
+        "totalTax": "4.94"
+      },
+      "details": [
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "2",
+          "unitCost": "15.99",
+          "totalCost": "31.98",
+          "totalTax": "3.20",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "1",
+          "unitCost": "4.99",
+          "totalCost": "4.99",
+          "totalTax": "0.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "1",
+          "unitCost": "4.49",
+          "totalCost": "4.49",
+          "totalTax": "0.45",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        }
+      ],
+      "_lsn": 3368768
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:12:34.675Z",
+    "offset": "15408",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 10,
+    "serializedSizeInBytes": 1831,
+    "systemProperties": {
+      "x-opt-sequence-number": 10,
+      "x-opt-offset": "15408",
+      "x-opt-enqueued-time": "2018-10-26T17:12:34.675Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:12:34.675Z",
+      "SequenceNumber": 10,
+      "Offset": "15408"
+    }
+  },
+  {
+    "body": {
+      "id": "4d78caa1-4ff9-4671-9856-ebd0f1639a46",
+      "_rid": "TjsbAO+SCJwGZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwGZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"0000220b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "ae9c2e47-1009-db51-2011-52158f3f643b",
+        "dateTime": "2018-10-25 23:43:45",
+        "locationId": "GGG777",
+        "locationName": "Bellows College",
+        "locationAddress": "8977 FE Road",
+        "locationPostcode": "98101",
+        "totalCost": "84.90",
+        "totalTax": "8.49"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "4",
+          "unitCost": "15.99",
+          "totalCost": "63.96",
+          "totalTax": "6.40",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "5",
+          "unitCost": "2.99",
+          "totalCost": "14.95",
+          "totalTax": "1.50",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "1",
+          "unitCost": "5.99",
+          "totalCost": "5.99",
+          "totalTax": "0.60",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368457
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "12712",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 8,
+    "serializedSizeInBytes": 1477,
+    "systemProperties": {
+      "x-opt-sequence-number": 8,
+      "x-opt-offset": "12712",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 8,
+      "Offset": "12712"
+    }
+  },
+  {
+    "body": {
+      "id": "8a330cf0-3f90-4625-b4ac-4f9fd8378bc6",
+      "_rid": "TjsbAO+SCJzbZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzbZjMAAAAAAA==/",
+      "_ts": 1540573637,
+      "_etag": "\"0000250c-0000-0000-0000-5bd349c50000\"",
+      "header": {
+        "salesNumber": "cb191c04-9704-4393-d571-a6300fce502d",
+        "dateTime": "2018-10-26 16:34:12",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "44.93",
+        "totalTax": "4.49"
+      },
+      "details": [
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "1",
+          "unitCost": "15.99",
+          "totalCost": "15.99",
+          "totalTax": "1.60",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "2",
+          "unitCost": "4.99",
+          "totalCost": "9.98",
+          "totalTax": "1.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "2",
+          "unitCost": "2.99",
+          "totalCost": "5.98",
+          "totalTax": "0.60",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        }
+      ],
+      "_lsn": 3368669
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:18.217Z",
+    "offset": "11784",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 7,
+    "serializedSizeInBytes": 2069,
+    "systemProperties": {
+      "x-opt-sequence-number": 7,
+      "x-opt-offset": "11784",
+      "x-opt-enqueued-time": "2018-10-26T17:07:18.217Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:18.217Z",
+      "SequenceNumber": 7,
+      "Offset": "11784"
+    }
+  },
+  {
+    "body": {
+      "id": "bec4442f-07ff-4edc-a01d-df2c24892965",
+      "_rid": "TjsbAO+SCJyjZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJyjZzMAAAAAAA==/",
+      "_ts": 1540574263,
+      "_etag": "\"0000ef0c-0000-0000-0000-5bd34c370000\"",
+      "header": {
+        "salesNumber": "31fcab8f-63d9-1619-475b-6c72a2464c05",
+        "dateTime": "2018-10-26 02:50:49",
+        "locationId": "GGG777",
+        "locationName": "Bellows College",
+        "locationAddress": "8977 FE Road",
+        "locationPostcode": "98101",
+        "totalCost": "24.95",
+        "totalTax": "2.50"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "1",
+          "unitCost": "4.99",
+          "totalCost": "4.99",
+          "totalTax": "0.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        }
+      ],
+      "_lsn": 3368869
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:17:45.962Z",
+    "offset": "23248",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 15,
+    "serializedSizeInBytes": 1553,
+    "systemProperties": {
+      "x-opt-sequence-number": 15,
+      "x-opt-offset": "23248",
+      "x-opt-enqueued-time": "2018-10-26T17:17:45.962Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:17:45.962Z",
+      "SequenceNumber": 15,
+      "Offset": "23248"
+    }
+  },
+  {
+    "body": {
+      "id": "b33b0627-031e-4ee0-9877-83e296893211",
+      "_rid": "TjsbAO+SCJw9ZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw9ZzMAAAAAAA==/",
+      "_ts": 1540573950,
+      "_etag": "\"0000880c-0000-0000-0000-5bd34afe0000\"",
+      "header": {
+        "salesNumber": "27f9ecb7-d6e7-5ad6-b4bc-4fedc1eb3b84",
+        "dateTime": "2018-10-26 14:14:35",
+        "locationId": "KKK111",
+        "locationName": "Margie's Travel",
+        "locationAddress": "675 Tyler Place",
+        "locationPostcode": "98112",
+        "totalCost": "8.99",
+        "totalTax": "0.90"
+      },
+      "details": [
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        }
+      ],
+      "_lsn": 3368767
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:12:34.675Z",
+    "offset": "14464",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 9,
+    "serializedSizeInBytes": 907,
+    "systemProperties": {
+      "x-opt-sequence-number": 9,
+      "x-opt-offset": "14464",
+      "x-opt-enqueued-time": "2018-10-26T17:12:34.675Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:12:34.675Z",
+      "SequenceNumber": 9,
+      "Offset": "14464"
+    }
+  },
+  {
+    "body": {
+      "id": "ebf8955f-7379-419a-8421-2229e510f28f",
+      "_rid": "TjsbAO+SCJzaZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzaZjMAAAAAAA==/",
+      "_ts": 1540573637,
+      "_etag": "\"0000240c-0000-0000-0000-5bd349c50000\"",
+      "header": {
+        "salesNumber": "df9b6a39-e17a-7f70-0cff-4a2a49dc385d",
+        "dateTime": "2018-10-25 23:42:55",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "17.95",
+        "totalTax": "1.80"
+      },
+      "details": [
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "3",
+          "unitCost": "2.99",
+          "totalCost": "8.97",
+          "totalTax": "0.90",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        }
+      ],
+      "_lsn": 3368668
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:18.217Z",
+    "offset": "10552",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 6,
+    "serializedSizeInBytes": 1195,
+    "systemProperties": {
+      "x-opt-sequence-number": 6,
+      "x-opt-offset": "10552",
+      "x-opt-enqueued-time": "2018-10-26T17:07:18.217Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:18.217Z",
+      "SequenceNumber": 6,
+      "Offset": "10552"
+    }
+  },
+  {
+    "body": {
+      "id": "05b8b384-4194-4c63-8bf2-9bde6c988d9e",
+      "_rid": "TjsbAO+SCJwDZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwDZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"00001f0b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "9e909668-485b-88a9-5909-9877b2539e8c",
+        "dateTime": "2018-10-26 13:33:50",
+        "locationId": "LLL222",
+        "locationName": "Munson's Pickles and Preserves Farm",
+        "locationAddress": "3453 99th Place",
+        "locationPostcode": "98121",
+        "totalCost": "37.94",
+        "totalTax": "3.79"
+      },
+      "details": [
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "1",
+          "unitCost": "15.99",
+          "totalCost": "15.99",
+          "totalTax": "1.60",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "1",
+          "unitCost": "5.99",
+          "totalCost": "5.99",
+          "totalTax": "0.60",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368456
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "10864",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 7,
+    "serializedSizeInBytes": 1806,
+    "systemProperties": {
+      "x-opt-sequence-number": 7,
+      "x-opt-offset": "10864",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 7,
+      "Offset": "10864"
+    }
+  },
+  {
+    "body": {
+      "id": "c47bf9ab-f3b7-46bd-9ec1-46bf1ddf889a",
+      "_rid": "TjsbAO+SCJzyZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzyZjMAAAAAAA==/",
+      "_ts": 1540573725,
+      "_etag": "\"00003c0c-0000-0000-0000-5bd34a1d0000\"",
+      "header": {
+        "salesNumber": "b5d81a4e-5420-047b-1685-6d2611902397",
+        "dateTime": "2018-10-25 21:00:47",
+        "locationId": "HHH888",
+        "locationName": "Fabrikam Residences",
+        "locationAddress": "545 Main Street",
+        "locationPostcode": "98052",
+        "totalCost": "38.91",
+        "totalTax": "3.89"
+      },
+      "details": [
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "3",
+          "unitCost": "3.49",
+          "totalCost": "10.47",
+          "totalTax": "1.05",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "4",
+          "unitCost": "4.99",
+          "totalCost": "19.96",
+          "totalTax": "2.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "1",
+          "unitCost": "4.49",
+          "totalCost": "4.49",
+          "totalTax": "0.45",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        }
+      ],
+      "_lsn": 3368692
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:08:48.791Z",
+    "offset": "8688",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 6,
+    "serializedSizeInBytes": 1792,
+    "systemProperties": {
+      "x-opt-sequence-number": 6,
+      "x-opt-offset": "8688",
+      "x-opt-enqueued-time": "2018-10-26T17:08:48.791Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:08:48.791Z",
+      "SequenceNumber": 6,
+      "Offset": "8688"
+    }
+  },
+  {
+    "body": {
+      "id": "2faca13f-9e84-4b4a-b283-f53fe7ec1b5d",
+      "_rid": "TjsbAO+SCJzZZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzZZjMAAAAAAA==/",
+      "_ts": 1540573631,
+      "_etag": "\"0000230c-0000-0000-0000-5bd349bf0000\"",
+      "header": {
+        "salesNumber": "b27ae58d-0304-e2c0-7002-c59f1a64328c",
+        "dateTime": "2018-10-26 17:03:37",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "80.88",
+        "totalTax": "8.09"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "2",
+          "unitCost": "15.99",
+          "totalCost": "31.98",
+          "totalTax": "3.20",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "4",
+          "unitCost": "3.99",
+          "totalCost": "15.96",
+          "totalTax": "1.60",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        }
+      ],
+      "_lsn": 3368667
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:12.858Z",
+    "offset": "12328",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 8,
+    "serializedSizeInBytes": 2099,
+    "systemProperties": {
+      "x-opt-sequence-number": 8,
+      "x-opt-offset": "12328",
+      "x-opt-enqueued-time": "2018-10-26T17:07:12.858Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:12.858Z",
+      "SequenceNumber": 8,
+      "Offset": "12328"
+    }
+  },
+  {
+    "body": {
+      "id": "b1a1861f-bdaf-49c1-b937-a4e9fbc9e90c",
+      "_rid": "TjsbAO+SCJw8ZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw8ZzMAAAAAAA==/",
+      "_ts": 1540573946,
+      "_etag": "\"0000870c-0000-0000-0000-5bd34afa0000\"",
+      "header": {
+        "salesNumber": "b8ad6d7f-84d8-e53a-3323-60fddfbe0c87",
+        "dateTime": "2018-10-26 04:40:30",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "4.49",
+        "totalTax": "0.45"
+      },
+      "details": [
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "1",
+          "unitCost": "4.49",
+          "totalCost": "4.49",
+          "totalTax": "0.45",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        }
+      ],
+      "_lsn": 3368766
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:12:29.644Z",
+    "offset": "22264",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 14,
+    "serializedSizeInBytes": 944,
+    "systemProperties": {
+      "x-opt-sequence-number": 14,
+      "x-opt-offset": "22264",
+      "x-opt-enqueued-time": "2018-10-26T17:12:29.644Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:12:29.644Z",
+      "SequenceNumber": 14,
+      "Offset": "22264"
+    }
+  },
+  {
+    "body": {
+      "id": "e9e8fc93-28ea-466b-9d13-53f5c81f7488",
+      "_rid": "TjsbAO+SCJwCZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwCZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"00001e0b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "6191eec9-47c6-1553-3dc7-957444629724",
+        "dateTime": "2018-10-26 05:47:15",
+        "locationId": "GGG777",
+        "locationName": "Bellows College",
+        "locationAddress": "8977 FE Road",
+        "locationPostcode": "98101",
+        "totalCost": "36.43",
+        "totalTax": "3.64"
+      },
+      "details": [
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "1",
+          "unitCost": "3.49",
+          "totalCost": "3.49",
+          "totalTax": "0.35",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "4",
+          "unitCost": "4.99",
+          "totalCost": "19.96",
+          "totalTax": "2.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        }
+      ],
+      "_lsn": 3368455
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "9048",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 6,
+    "serializedSizeInBytes": 1773,
+    "systemProperties": {
+      "x-opt-sequence-number": 6,
+      "x-opt-offset": "9048",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 6,
+      "Offset": "9048"
+    }
+  },
+  {
+    "body": {
+      "id": "d7daafa7-9b97-4393-850f-a8ed1a4a043c",
+      "_rid": "TjsbAO+SCJxvZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxvZjMAAAAAAA==/",
+      "_ts": 1540570855,
+      "_etag": "\"00008e0b-0000-0000-0000-5bd33ee70000\"",
+      "header": {
+        "salesNumber": "159d81b5-7f70-74d9-4229-ddb0f8acc09b",
+        "dateTime": "2018-10-26 05:50:48",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "53.39",
+        "totalTax": "5.34"
+      },
+      "details": [
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "3",
+          "unitCost": "5.99",
+          "totalCost": "17.97",
+          "totalTax": "1.80",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "1",
+          "unitCost": "3.49",
+          "totalCost": "3.49",
+          "totalTax": "0.35",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        }
+      ],
+      "_lsn": 3368562
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+    "offset": "8368",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 5,
+    "serializedSizeInBytes": 2144,
+    "systemProperties": {
+      "x-opt-sequence-number": 5,
+      "x-opt-offset": "8368",
+      "x-opt-enqueued-time": "2018-10-26T16:20:58.023Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+      "SequenceNumber": 5,
+      "Offset": "8368"
+    }
+  },
+  {
+    "body": {
+      "id": "39b2434e-82d9-4339-a4be-9ce3b23cba76",
+      "_rid": "TjsbAO+SCJyFZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJyFZjMAAAAAAA==/",
+      "_ts": 1540570890,
+      "_etag": "\"0000a40b-0000-0000-0000-5bd33f0a0000\"",
+      "header": {
+        "salesNumber": "b0fe4d99-813d-77a9-138c-309010b3e8b2",
+        "dateTime": "2018-10-26 12:29:18",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "9.98",
+        "totalTax": "1.00"
+      },
+      "details": [
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "2",
+          "unitCost": "4.99",
+          "totalCost": "9.98",
+          "totalTax": "1.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        }
+      ],
+      "_lsn": 3368583
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:21:33.874Z",
+    "offset": "7720",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 5,
+    "serializedSizeInBytes": 928,
+    "systemProperties": {
+      "x-opt-sequence-number": 5,
+      "x-opt-offset": "7720",
+      "x-opt-enqueued-time": "2018-10-26T16:21:33.874Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:21:33.874Z",
+      "SequenceNumber": 5,
+      "Offset": "7720"
+    }
+  },
+  {
+    "body": {
+      "id": "1aea91b8-0849-4a98-a83e-814366d86b2b",
+      "_rid": "TjsbAO+SCJw7ZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw7ZzMAAAAAAA==/",
+      "_ts": 1540573946,
+      "_etag": "\"0000860c-0000-0000-0000-5bd34afa0000\"",
+      "header": {
+        "salesNumber": "c7d08760-d821-ecb1-c770-3f84027c2bfa",
+        "dateTime": "2018-10-26 16:06:56",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "66.34",
+        "totalTax": "6.63"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "4",
+          "unitCost": "5.99",
+          "totalCost": "23.96",
+          "totalTax": "2.40",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "3",
+          "unitCost": "3.49",
+          "totalCost": "10.47",
+          "totalTax": "1.05",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "4",
+          "unitCost": "2.99",
+          "totalCost": "11.96",
+          "totalTax": "1.20",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        }
+      ],
+      "_lsn": 3368765
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:12:29.644Z",
+    "offset": "20152",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 13,
+    "serializedSizeInBytes": 2072,
+    "systemProperties": {
+      "x-opt-sequence-number": 13,
+      "x-opt-offset": "20152",
+      "x-opt-enqueued-time": "2018-10-26T17:12:29.644Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:12:29.644Z",
+      "SequenceNumber": 13,
+      "Offset": "20152"
+    }
+  },
+  {
+    "body": {
+      "id": "06ca7eee-9c1f-435f-a2de-434836fbdb0c",
+      "_rid": "TjsbAO+SCJzYZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzYZjMAAAAAAA==/",
+      "_ts": 1540573631,
+      "_etag": "\"0000220c-0000-0000-0000-5bd349bf0000\"",
+      "header": {
+        "salesNumber": "bcf3071f-7694-b485-637f-8bc4b48384b7",
+        "dateTime": "2018-10-25 18:10:19",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "20.45",
+        "totalTax": "2.04"
+      },
+      "details": [
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "1",
+          "unitCost": "3.49",
+          "totalCost": "3.49",
+          "totalTax": "0.35",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        }
+      ],
+      "_lsn": 3368666
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:12.858Z",
+    "offset": "10816",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 7,
+    "serializedSizeInBytes": 1475,
+    "systemProperties": {
+      "x-opt-sequence-number": 7,
+      "x-opt-offset": "10816",
+      "x-opt-enqueued-time": "2018-10-26T17:07:12.858Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:12.858Z",
+      "SequenceNumber": 7,
+      "Offset": "10816"
+    }
+  },
+  {
+    "body": {
+      "id": "39ec3f36-1c6f-43e6-b7a9-20b2b2ccfe47",
+      "_rid": "TjsbAO+SCJyEZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJyEZjMAAAAAAA==/",
+      "_ts": 1540570890,
+      "_etag": "\"0000a30b-0000-0000-0000-5bd33f0a0000\"",
+      "header": {
+        "salesNumber": "3175f0ce-a1cc-b3f5-7385-cdf975df4085",
+        "dateTime": "2018-10-25 19:07:58",
+        "locationId": "KKK111",
+        "locationName": "Margie's Travel",
+        "locationAddress": "675 Tyler Place",
+        "locationPostcode": "98112",
+        "totalCost": "11.98",
+        "totalTax": "1.20"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368582
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:21:33.874Z",
+    "offset": "6744",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 4,
+    "serializedSizeInBytes": 934,
+    "systemProperties": {
+      "x-opt-sequence-number": 4,
+      "x-opt-offset": "6744",
+      "x-opt-enqueued-time": "2018-10-26T16:21:33.874Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:21:33.874Z",
+      "SequenceNumber": 4,
+      "Offset": "6744"
+    }
+  },
+  {
+    "body": {
+      "id": "fa20d547-9fc3-447b-a738-4e18f4fbe93b",
+      "_rid": "TjsbAO+SCJxwZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxwZjMAAAAAAA==/",
+      "_ts": 1540570855,
+      "_etag": "\"00008f0b-0000-0000-0000-5bd33ee70000\"",
+      "header": {
+        "salesNumber": "4a8b04f4-2e29-3d9b-fd2e-d5b3a982372b",
+        "dateTime": "2018-10-25 18:05:13",
+        "locationId": "GGG777",
+        "locationName": "Bellows College",
+        "locationAddress": "8977 FE Road",
+        "locationPostcode": "98101",
+        "totalCost": "62.92",
+        "totalTax": "6.29"
+      },
+      "details": [
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "5",
+          "unitCost": "2.99",
+          "totalCost": "14.95",
+          "totalTax": "1.50",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "3",
+          "unitCost": "15.99",
+          "totalCost": "47.97",
+          "totalTax": "4.80",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        }
+      ],
+      "_lsn": 3368561
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+    "offset": "7168",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 4,
+    "serializedSizeInBytes": 1158,
+    "systemProperties": {
+      "x-opt-sequence-number": 4,
+      "x-opt-offset": "7168",
+      "x-opt-enqueued-time": "2018-10-26T16:20:58.023Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+      "SequenceNumber": 4,
+      "Offset": "7168"
+    }
+  },
+  {
+    "body": {
+      "id": "79aa3904-f183-4372-b97d-1e03eb7b8074",
+      "_rid": "TjsbAO+SCJwEZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwEZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"0000200b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "2d1efb8a-634f-1e3d-38cb-2699c3aacdc2",
+        "dateTime": "2018-10-26 05:21:25",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "21.95",
+        "totalTax": "2.20"
+      },
+      "details": [
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "1",
+          "unitCost": "4.99",
+          "totalCost": "4.99",
+          "totalTax": "0.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        }
+      ],
+      "_lsn": 3368454
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "7448",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 5,
+    "serializedSizeInBytes": 1560,
+    "systemProperties": {
+      "x-opt-sequence-number": 5,
+      "x-opt-offset": "7448",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 5,
+      "Offset": "7448"
+    }
+  },
+  {
+    "body": {
+      "id": "e78129e9-4a4e-4f9a-a6c3-52594203cc34",
+      "_rid": "TjsbAO+SCJw6ZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw6ZzMAAAAAAA==/",
+      "_ts": 1540573946,
+      "_etag": "\"0000850c-0000-0000-0000-5bd34afa0000\"",
+      "header": {
+        "salesNumber": "e78bfa93-a5fd-519a-1e94-5793f05872e3",
+        "dateTime": "2018-10-26 10:47:32",
+        "locationId": "HHH888",
+        "locationName": "Fabrikam Residences",
+        "locationAddress": "545 Main Street",
+        "locationPostcode": "98052",
+        "totalCost": "19.96",
+        "totalTax": "2.00"
+      },
+      "details": [
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "4",
+          "unitCost": "4.99",
+          "totalCost": "19.96",
+          "totalTax": "2.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        }
+      ],
+      "_lsn": 3368764
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:12:29.644Z",
+    "offset": "19184",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 12,
+    "serializedSizeInBytes": 930,
+    "systemProperties": {
+      "x-opt-sequence-number": 12,
+      "x-opt-offset": "19184",
+      "x-opt-enqueued-time": "2018-10-26T17:12:29.644Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:12:29.644Z",
+      "SequenceNumber": 12,
+      "Offset": "19184"
+    }
+  },
+  {
+    "body": {
+      "id": "fc95e46f-52b4-46cf-9cc8-28be5b6d7b0a",
+      "_rid": "TjsbAO+SCJzXZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzXZjMAAAAAAA==/",
+      "_ts": 1540573630,
+      "_etag": "\"0000210c-0000-0000-0000-5bd349be0000\"",
+      "header": {
+        "salesNumber": "ad4cce0d-a622-7111-4149-f93ec8b74367",
+        "dateTime": "2018-10-26 08:34:57",
+        "locationId": "HHH888",
+        "locationName": "Fabrikam Residences",
+        "locationAddress": "545 Main Street",
+        "locationPostcode": "98052",
+        "totalCost": "45.89",
+        "totalTax": "4.59"
+      },
+      "details": [
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "2",
+          "unitCost": "4.99",
+          "totalCost": "9.98",
+          "totalTax": "1.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "3",
+          "unitCost": "2.99",
+          "totalCost": "8.97",
+          "totalTax": "0.90",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "1",
+          "unitCost": "5.99",
+          "totalCost": "5.99",
+          "totalTax": "0.60",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368665
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:12.858Z",
+    "offset": "8632",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 6,
+    "serializedSizeInBytes": 2141,
+    "systemProperties": {
+      "x-opt-sequence-number": 6,
+      "x-opt-offset": "8632",
+      "x-opt-enqueued-time": "2018-10-26T17:07:12.858Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:12.858Z",
+      "SequenceNumber": 6,
+      "Offset": "8632"
+    }
+  },
+  {
+    "body": {
+      "id": "46dee8c1-bd86-4a8a-a540-a048d50e94f3",
+      "_rid": "TjsbAO+SCJyDZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJyDZjMAAAAAAA==/",
+      "_ts": 1540570890,
+      "_etag": "\"0000a20b-0000-0000-0000-5bd33f0a0000\"",
+      "header": {
+        "salesNumber": "f0dec393-42c2-6cad-b04a-7b1408e551c5",
+        "dateTime": "2018-10-26 10:17:02",
+        "locationId": "HHH888",
+        "locationName": "Fabrikam Residences",
+        "locationAddress": "545 Main Street",
+        "locationPostcode": "98052",
+        "totalCost": "20.44",
+        "totalTax": "2.04"
+      },
+      "details": [
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "1",
+          "unitCost": "4.49",
+          "totalCost": "4.49",
+          "totalTax": "0.45",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "4",
+          "unitCost": "2.99",
+          "totalCost": "11.96",
+          "totalTax": "1.20",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        }
+      ],
+      "_lsn": 3368581
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:21:33.874Z",
+    "offset": "5224",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 3,
+    "serializedSizeInBytes": 1478,
+    "systemProperties": {
+      "x-opt-sequence-number": 3,
+      "x-opt-offset": "5224",
+      "x-opt-enqueued-time": "2018-10-26T16:21:33.874Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:21:33.874Z",
+      "SequenceNumber": 3,
+      "Offset": "5224"
+    }
+  },
+  {
+    "body": {
+      "id": "774765e8-0709-4b66-a49f-dd3e57fdcfc3",
+      "_rid": "TjsbAO+SCJxuZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxuZjMAAAAAAA==/",
+      "_ts": 1540570855,
+      "_etag": "\"00008d0b-0000-0000-0000-5bd33ee70000\"",
+      "header": {
+        "salesNumber": "4edec7fb-c2d4-6100-692b-1f4d9c2a574f",
+        "dateTime": "2018-10-26 10:20:26",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "28.93",
+        "totalTax": "2.89"
+      },
+      "details": [
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "1",
+          "unitCost": "4.99",
+          "totalCost": "4.99",
+          "totalTax": "0.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        }
+      ],
+      "_lsn": 3368560
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+    "offset": "5584",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 3,
+    "serializedSizeInBytes": 1542,
+    "systemProperties": {
+      "x-opt-sequence-number": 3,
+      "x-opt-offset": "5584",
+      "x-opt-enqueued-time": "2018-10-26T16:20:58.023Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+      "SequenceNumber": 3,
+      "Offset": "5584"
+    }
+  },
+  {
+    "body": {
+      "id": "312e5742-55bf-4c6c-8884-e6ec16b2a6ea",
+      "_rid": "TjsbAO+SCJw-ZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw-ZjMAAAAAAA==/",
+      "_ts": 1540569522,
+      "_etag": "\"00005b0b-0000-0000-0000-5bd339b20000\"",
+      "header": {
+        "salesNumber": "88f782d0-0006-e82d-0c46-d626127ba12c",
+        "dateTime": "2018-10-26 12:51:47",
+        "locationId": "LLL222",
+        "locationName": "Munson's Pickles and Preserves Farm",
+        "locationAddress": "3453 99th Place",
+        "locationPostcode": "98121",
+        "totalCost": "27.96",
+        "totalTax": "2.80"
+      },
+      "details": [
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "1",
+          "unitCost": "15.99",
+          "totalCost": "15.99",
+          "totalTax": "1.60",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        }
+      ],
+      "_lsn": 3368513
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:44.214Z",
+    "offset": "5264",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 3,
+    "serializedSizeInBytes": 1216,
+    "systemProperties": {
+      "x-opt-sequence-number": 3,
+      "x-opt-offset": "5264",
+      "x-opt-enqueued-time": "2018-10-26T15:58:44.214Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:44.214Z",
+      "SequenceNumber": 3,
+      "Offset": "5264"
+    }
+  },
+  {
+    "body": {
+      "id": "99a8bd33-de7f-4170-8b32-b1fd631c23cd",
+      "_rid": "TjsbAO+SCJwHZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwHZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"0000230b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "e2d0cc44-0f3d-f53b-02fb-5bb4293b4d00",
+        "dateTime": "2018-10-26 09:11:43",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "37.41",
+        "totalTax": "3.74"
+      },
+      "details": [
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "2",
+          "unitCost": "2.99",
+          "totalCost": "5.98",
+          "totalTax": "0.60",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "4",
+          "unitCost": "4.99",
+          "totalCost": "19.96",
+          "totalTax": "2.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "1",
+          "unitCost": "3.49",
+          "totalCost": "3.49",
+          "totalTax": "0.35",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        }
+      ],
+      "_lsn": 3368453
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "5616",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 4,
+    "serializedSizeInBytes": 1790,
+    "systemProperties": {
+      "x-opt-sequence-number": 4,
+      "x-opt-offset": "5616",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 4,
+      "Offset": "5616"
+    }
+  },
+  {
+    "body": {
+      "id": "6fb82ad8-4c8f-4496-9d92-3777c0ed15cb",
+      "_rid": "TjsbAO+SCJzWZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzWZjMAAAAAAA==/",
+      "_ts": 1540573627,
+      "_etag": "\"0000200c-0000-0000-0000-5bd349bb0000\"",
+      "header": {
+        "salesNumber": "66672bfc-f705-15e8-764d-9945e5e5d2fc",
+        "dateTime": "2018-10-26 09:48:47",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "22.96",
+        "totalTax": "2.30"
+      },
+      "details": [
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "2",
+          "unitCost": "4.99",
+          "totalCost": "9.98",
+          "totalTax": "1.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        }
+      ],
+      "_lsn": 3368664
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+    "offset": "17640",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 11,
+    "serializedSizeInBytes": 1501,
+    "systemProperties": {
+      "x-opt-sequence-number": 11,
+      "x-opt-offset": "17640",
+      "x-opt-enqueued-time": "2018-10-26T17:07:07.842Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+      "SequenceNumber": 11,
+      "Offset": "17640"
+    }
+  },
+  {
+    "body": {
+      "id": "173e655f-41b9-4ff8-bc69-a1cbdb5e971b",
+      "_rid": "TjsbAO+SCJxqZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxqZjMAAAAAAA==/",
+      "_ts": 1540570845,
+      "_etag": "\"0000890b-0000-0000-0000-5bd33edd0000\"",
+      "header": {
+        "salesNumber": "2b5669b5-5ea5-2317-1e8b-a5ce330f6c37",
+        "dateTime": "2018-10-26 06:06:25",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "20.96",
+        "totalTax": "2.10"
+      },
+      "details": [
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        }
+      ],
+      "_lsn": 3368556
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+    "offset": "7368",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 5,
+    "serializedSizeInBytes": 1220,
+    "systemProperties": {
+      "x-opt-sequence-number": 5,
+      "x-opt-offset": "7368",
+      "x-opt-enqueued-time": "2018-10-26T16:20:47.536Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+      "SequenceNumber": 5,
+      "Offset": "7368"
+    }
+  },
+  {
+    "body": {
+      "id": "edbdc4ed-bcce-4d2f-b7d9-db4f0ef13cbf",
+      "_rid": "TjsbAO+SCJxtZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxtZjMAAAAAAA==/",
+      "_ts": 1540570853,
+      "_etag": "\"00008c0b-0000-0000-0000-5bd33ee50000\"",
+      "header": {
+        "salesNumber": "cd8da42a-8768-25c0-58bf-e430774c22ac",
+        "dateTime": "2018-10-26 15:39:13",
+        "locationId": "GGG777",
+        "locationName": "Bellows College",
+        "locationAddress": "8977 FE Road",
+        "locationPostcode": "98101",
+        "totalCost": "39.91",
+        "totalTax": "3.99"
+      },
+      "details": [
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        }
+      ],
+      "_lsn": 3368559
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+    "offset": "3720",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 2,
+    "serializedSizeInBytes": 1825,
+    "systemProperties": {
+      "x-opt-sequence-number": 2,
+      "x-opt-offset": "3720",
+      "x-opt-enqueued-time": "2018-10-26T16:20:58.023Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+      "SequenceNumber": 2,
+      "Offset": "3720"
+    }
+  },
+  {
+    "body": {
+      "id": "9fb484b9-c365-4d06-a2e3-f3c99cc8486c",
+      "_rid": "TjsbAO+SCJxJZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxJZjMAAAAAAA==/",
+      "_ts": 1540569540,
+      "_etag": "\"0000650b-0000-0000-0000-5bd339c40000\"",
+      "header": {
+        "salesNumber": "8f62b75e-55a5-dade-1285-c69c5eb18bba",
+        "dateTime": "2018-10-26 05:16:30",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "61.85",
+        "totalTax": "6.18"
+      },
+      "details": [
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "2",
+          "unitCost": "3.49",
+          "totalCost": "6.98",
+          "totalTax": "0.70",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "4",
+          "unitCost": "4.99",
+          "totalCost": "19.96",
+          "totalTax": "2.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "6",
+          "unitCost": "2.99",
+          "totalCost": "17.94",
+          "totalTax": "1.79",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        }
+      ],
+      "_lsn": 3368523
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:59:04.953Z",
+    "offset": "3128",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 2,
+    "serializedSizeInBytes": 2053,
+    "systemProperties": {
+      "x-opt-sequence-number": 2,
+      "x-opt-offset": "3128",
+      "x-opt-enqueued-time": "2018-10-26T15:59:04.953Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:59:04.953Z",
+      "SequenceNumber": 2,
+      "Offset": "3128"
+    }
+  },
+  {
+    "body": {
+      "id": "64581b4c-cc71-479d-b861-70c3346c0d03",
+      "_rid": "TjsbAO+SCJw+ZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw+ZjMAAAAAAA==/",
+      "_ts": 1540569521,
+      "_etag": "\"00005a0b-0000-0000-0000-5bd339b10000\"",
+      "header": {
+        "salesNumber": "c4d0ab3d-f2d9-7f38-f9a2-7d2a06c032e0",
+        "dateTime": "2018-10-26 08:21:39",
+        "locationId": "LLL222",
+        "locationName": "Munson's Pickles and Preserves Farm",
+        "locationAddress": "3453 99th Place",
+        "locationPostcode": "98121",
+        "totalCost": "41.44",
+        "totalTax": "4.14"
+      },
+      "details": [
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "1",
+          "unitCost": "4.49",
+          "totalCost": "4.49",
+          "totalTax": "0.45",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "1",
+          "unitCost": "15.99",
+          "totalCost": "15.99",
+          "totalTax": "1.60",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        }
+      ],
+      "_lsn": 3368512
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:44.214Z",
+    "offset": "3408",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 2,
+    "serializedSizeInBytes": 1815,
+    "systemProperties": {
+      "x-opt-sequence-number": 2,
+      "x-opt-offset": "3408",
+      "x-opt-enqueued-time": "2018-10-26T15:58:44.214Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:44.214Z",
+      "SequenceNumber": 2,
+      "Offset": "3408"
+    }
+  },
+  {
+    "body": {
+      "id": "c325cae5-0fb7-4343-9166-385c27e91bb2",
+      "_rid": "TjsbAO+SCJwFZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwFZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"0000210b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "c2e0d7a0-1190-a987-a42e-4da2ab097770",
+        "dateTime": "2018-10-26 11:29:39",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "33.43",
+        "totalTax": "3.34"
+      },
+      "details": [
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "3",
+          "unitCost": "5.99",
+          "totalCost": "17.97",
+          "totalTax": "1.80",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "1",
+          "unitCost": "3.49",
+          "totalCost": "3.49",
+          "totalTax": "0.35",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        }
+      ],
+      "_lsn": 3368452
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "4056",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 3,
+    "serializedSizeInBytes": 1521,
+    "systemProperties": {
+      "x-opt-sequence-number": 3,
+      "x-opt-offset": "4056",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 3,
+      "Offset": "4056"
+    }
+  },
+  {
+    "body": {
+      "id": "6db3ebfe-f229-4e9a-8ff1-95e40e63fab7",
+      "_rid": "TjsbAO+SCJzVZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzVZjMAAAAAAA==/",
+      "_ts": 1540573627,
+      "_etag": "\"00001f0c-0000-0000-0000-5bd349bb0000\"",
+      "header": {
+        "salesNumber": "eadac2b5-b4a4-11af-bc58-b2ae0a928d63",
+        "dateTime": "2018-10-25 19:18:10",
+        "locationId": "GGG777",
+        "locationName": "Bellows College",
+        "locationAddress": "8977 FE Road",
+        "locationPostcode": "98101",
+        "totalCost": "26.92",
+        "totalTax": "2.69"
+      },
+      "details": [
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "5",
+          "unitCost": "2.99",
+          "totalCost": "14.95",
+          "totalTax": "1.50",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        }
+      ],
+      "_lsn": 3368663
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+    "offset": "16400",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 10,
+    "serializedSizeInBytes": 1200,
+    "systemProperties": {
+      "x-opt-sequence-number": 10,
+      "x-opt-offset": "16400",
+      "x-opt-enqueued-time": "2018-10-26T17:07:07.842Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+      "SequenceNumber": 10,
+      "Offset": "16400"
+    }
+  },
+  {
+    "body": {
+      "id": "8a2179b8-3010-4281-8426-99ed7296cd7b",
+      "_rid": "TjsbAO+SCJxpZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxpZjMAAAAAAA==/",
+      "_ts": 1540570845,
+      "_etag": "\"0000880b-0000-0000-0000-5bd33edd0000\"",
+      "header": {
+        "salesNumber": "e08cec85-b86b-89ef-5f95-9027c0b435d4",
+        "dateTime": "2018-10-26 00:49:23",
+        "locationId": "LLL222",
+        "locationName": "Munson's Pickles and Preserves Farm",
+        "locationAddress": "3453 99th Place",
+        "locationPostcode": "98121",
+        "totalCost": "35.47",
+        "totalTax": "3.55"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "2",
+          "unitCost": "15.99",
+          "totalCost": "31.98",
+          "totalTax": "3.20",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "1",
+          "unitCost": "3.49",
+          "totalCost": "3.49",
+          "totalTax": "0.35",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        }
+      ],
+      "_lsn": 3368555
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+    "offset": "6144",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 4,
+    "serializedSizeInBytes": 1182,
+    "systemProperties": {
+      "x-opt-sequence-number": 4,
+      "x-opt-offset": "6144",
+      "x-opt-enqueued-time": "2018-10-26T16:20:47.536Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+      "SequenceNumber": 4,
+      "Offset": "6144"
+    }
+  },
+  {
+    "body": {
+      "id": "661503ce-52f4-4032-80aa-8554cc40d9dc",
+      "_rid": "TjsbAO+SCJw9ZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw9ZjMAAAAAAA==/",
+      "_ts": 1540569519,
+      "_etag": "\"0000590b-0000-0000-0000-5bd339af0000\"",
+      "header": {
+        "salesNumber": "4101643f-db1a-a2e9-d0b1-0973469d7980",
+        "dateTime": "2018-10-25 20:03:25",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "93.88",
+        "totalTax": "9.39"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "1",
+          "unitCost": "5.99",
+          "totalCost": "5.99",
+          "totalTax": "0.60",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "4",
+          "unitCost": "15.99",
+          "totalCost": "63.96",
+          "totalTax": "6.40",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "4",
+          "unitCost": "2.99",
+          "totalCost": "11.96",
+          "totalTax": "1.20",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        }
+      ],
+      "_lsn": 3368511
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:44.214Z",
+    "offset": "1552",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 1,
+    "serializedSizeInBytes": 1818,
+    "systemProperties": {
+      "x-opt-sequence-number": 1,
+      "x-opt-offset": "1552",
+      "x-opt-enqueued-time": "2018-10-26T15:58:44.214Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:44.214Z",
+      "SequenceNumber": 1,
+      "Offset": "1552"
+    }
+  },
+  {
+    "body": {
+      "id": "0383eb16-5a1a-47a0-b783-52e893e22fad",
+      "_rid": "TjsbAO+SCJwAZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwAZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"00001c0b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "bc7ec445-c97d-c102-e179-cabec19ca8ca",
+        "dateTime": "2018-10-25 21:45:39",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "42.40",
+        "totalTax": "4.24"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "3",
+          "unitCost": "3.49",
+          "totalCost": "10.47",
+          "totalTax": "1.05",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        }
+      ],
+      "_lsn": 3368451
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "2184",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 2,
+    "serializedSizeInBytes": 1833,
+    "systemProperties": {
+      "x-opt-sequence-number": 2,
+      "x-opt-offset": "2184",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 2,
+      "Offset": "2184"
+    }
+  },
+  {
+    "body": {
+      "id": "83c9967b-96cc-4b23-96ae-b4435b467b57",
+      "_rid": "TjsbAO+SCJxsZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxsZjMAAAAAAA==/",
+      "_ts": 1540570853,
+      "_etag": "\"00008b0b-0000-0000-0000-5bd33ee50000\"",
+      "header": {
+        "salesNumber": "8914c2db-3fa4-ba35-5509-936a41dcfb87",
+        "dateTime": "2018-10-26 15:14:16",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "35.41",
+        "totalTax": "3.54"
+      },
+      "details": [
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "3",
+          "unitCost": "3.49",
+          "totalCost": "10.47",
+          "totalTax": "1.05",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "2",
+          "unitCost": "2.99",
+          "totalCost": "5.98",
+          "totalTax": "0.60",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        }
+      ],
+      "_lsn": 3368558
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+    "offset": "1872",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 1,
+    "serializedSizeInBytes": 1811,
+    "systemProperties": {
+      "x-opt-sequence-number": 1,
+      "x-opt-offset": "1872",
+      "x-opt-enqueued-time": "2018-10-26T16:20:58.023Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+      "SequenceNumber": 1,
+      "Offset": "1872"
+    }
+  },
+  {
+    "body": {
+      "id": "2d457747-5217-48eb-927d-6c6639c601e0",
+      "_rid": "TjsbAO+SCJxIZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxIZjMAAAAAAA==/",
+      "_ts": 1540569540,
+      "_etag": "\"0000640b-0000-0000-0000-5bd339c40000\"",
+      "header": {
+        "salesNumber": "17422b65-af82-eb5d-4f7d-9463a5dd4dda",
+        "dateTime": "2018-10-26 10:59:44",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "27.94",
+        "totalTax": "2.79"
+      },
+      "details": [
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368522
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:59:04.953Z",
+    "offset": "1560",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 1,
+    "serializedSizeInBytes": 1528,
+    "systemProperties": {
+      "x-opt-sequence-number": 1,
+      "x-opt-offset": "1560",
+      "x-opt-enqueued-time": "2018-10-26T15:59:04.953Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:59:04.953Z",
+      "SequenceNumber": 1,
+      "Offset": "1560"
+    }
+  },
+  {
+    "body": {
+      "id": "356054a0-98e6-4bc0-8587-1ef09b3d704d",
+      "_rid": "TjsbAO+SCJzUZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzUZjMAAAAAAA==/",
+      "_ts": 1540573627,
+      "_etag": "\"00001e0c-0000-0000-0000-5bd349bb0000\"",
+      "header": {
+        "salesNumber": "38ca00ad-8428-99ea-95e4-b956bc9a3417",
+        "dateTime": "2018-10-26 14:00:22",
+        "locationId": "LLL222",
+        "locationName": "Munson's Pickles and Preserves Farm",
+        "locationAddress": "3453 99th Place",
+        "locationPostcode": "98121",
+        "totalCost": "34.42",
+        "totalTax": "3.44"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "1",
+          "unitCost": "5.99",
+          "totalCost": "5.99",
+          "totalTax": "0.60",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "2",
+          "unitCost": "4.99",
+          "totalCost": "9.98",
+          "totalTax": "1.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "3",
+          "unitCost": "3.49",
+          "totalCost": "10.47",
+          "totalTax": "1.05",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        }
+      ],
+      "_lsn": 3368662
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+    "offset": "14536",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 9,
+    "serializedSizeInBytes": 1821,
+    "systemProperties": {
+      "x-opt-sequence-number": 9,
+      "x-opt-offset": "14536",
+      "x-opt-enqueued-time": "2018-10-26T17:07:07.842Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+      "SequenceNumber": 9,
+      "Offset": "14536"
+    }
+  },
+  {
+    "body": {
+      "id": "c71a8e55-d948-4bfc-8472-bd0851c845b7",
+      "_rid": "TjsbAO+SCJxoZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxoZjMAAAAAAA==/",
+      "_ts": 1540570845,
+      "_etag": "\"0000870b-0000-0000-0000-5bd33edd0000\"",
+      "header": {
+        "salesNumber": "ebc09e23-29dd-600b-7958-1f43b8a5f410",
+        "dateTime": "2018-10-26 01:42:13",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "14.96",
+        "totalTax": "1.50"
+      },
+      "details": [
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "2",
+          "unitCost": "3.49",
+          "totalCost": "6.98",
+          "totalTax": "0.70",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        }
+      ],
+      "_lsn": 3368554
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+    "offset": "4904",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 3,
+    "serializedSizeInBytes": 1200,
+    "systemProperties": {
+      "x-opt-sequence-number": 3,
+      "x-opt-offset": "4904",
+      "x-opt-enqueued-time": "2018-10-26T16:20:47.536Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+      "SequenceNumber": 3,
+      "Offset": "4904"
+    }
+  },
+  {
+    "body": {
+      "id": "b11dc35e-906b-4220-a30f-91fce1acb7ba",
+      "_rid": "TjsbAO+SCJw8ZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw8ZjMAAAAAAA==/",
+      "_ts": 1540569519,
+      "_etag": "\"0000580b-0000-0000-0000-5bd339af0000\"",
+      "header": {
+        "salesNumber": "0ffc3d62-e8ba-5f2b-29f3-8788dbe65fd0",
+        "dateTime": "2018-10-25 23:27:59",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "48.95",
+        "totalTax": "4.90"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "2",
+          "unitCost": "15.99",
+          "totalCost": "31.98",
+          "totalTax": "3.20",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        }
+      ],
+      "_lsn": 3368510
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:44.214Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 1508,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T15:58:44.214Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:44.214Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": {
+      "id": "b6456f0f-62ef-4caf-8a52-7ea20c748b04",
+      "_rid": "TjsbAO+SCJwBZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJwBZjMAAAAAAA==/",
+      "_ts": 1540569468,
+      "_etag": "\"00001d0b-0000-0000-0000-5bd3397c0000\"",
+      "header": {
+        "salesNumber": "b4680ae8-fa96-f87c-f214-a5a1c70ee0d8",
+        "dateTime": "2018-10-26 15:44:51",
+        "locationId": "HHH888",
+        "locationName": "Fabrikam Residences",
+        "locationAddress": "545 Main Street",
+        "locationPostcode": "98052",
+        "totalCost": "11.97",
+        "totalTax": "1.20"
+      },
+      "details": [
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        }
+      ],
+      "_lsn": 3368450
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "1216",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 1,
+    "serializedSizeInBytes": 930,
+    "systemProperties": {
+      "x-opt-sequence-number": 1,
+      "x-opt-offset": "1216",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 1,
+      "Offset": "1216"
+    }
+  },
+  {
+    "body": {
+      "id": "3b93d5fc-7f2c-4dc6-a1d0-e1a832182c57",
+      "_rid": "TjsbAO+SCJxHZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxHZjMAAAAAAA==/",
+      "_ts": 1540569540,
+      "_etag": "\"0000630b-0000-0000-0000-5bd339c40000\"",
+      "header": {
+        "salesNumber": "16bb3ae9-71bf-0aba-1c29-0876f94a0009",
+        "dateTime": "2018-10-26 13:23:33",
+        "locationId": "HHH888",
+        "locationName": "Fabrikam Residences",
+        "locationAddress": "545 Main Street",
+        "locationPostcode": "98052",
+        "totalCost": "30.93",
+        "totalTax": "3.09"
+      },
+      "details": [
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "3",
+          "unitCost": "2.99",
+          "totalCost": "8.97",
+          "totalTax": "0.90",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "3",
+          "unitCost": "5.99",
+          "totalCost": "17.97",
+          "totalTax": "1.80",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368521
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:59:04.953Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 1518,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T15:59:04.953Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:59:04.953Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": {
+      "id": "dab9369b-3cbf-4de8-8d3a-e1a007c9c029",
+      "_rid": "TjsbAO+SCJxrZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxrZjMAAAAAAA==/",
+      "_ts": 1540570853,
+      "_etag": "\"00008a0b-0000-0000-0000-5bd33ee50000\"",
+      "header": {
+        "salesNumber": "0f4d51a9-cab4-fae5-9660-d2c99c21df19",
+        "dateTime": "2018-10-26 04:54:06",
+        "locationId": "HHH888",
+        "locationName": "Fabrikam Residences",
+        "locationAddress": "545 Main Street",
+        "locationPostcode": "98052",
+        "totalCost": "33.93",
+        "totalTax": "3.39"
+      },
+      "details": [
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        }
+      ],
+      "_lsn": 3368557
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 1833,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T16:20:58.023Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:58.023Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": {
+      "id": "1c41bf42-b9bd-4e15-a6e6-dac3a462377b",
+      "_rid": "TjsbAO+SCJxnZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxnZjMAAAAAAA==/",
+      "_ts": 1540570843,
+      "_etag": "\"0000860b-0000-0000-0000-5bd33edb0000\"",
+      "header": {
+        "salesNumber": "7e5a09b2-20c4-cd73-31da-fccf138fc408",
+        "dateTime": "2018-10-25 16:25:01",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "41.90",
+        "totalTax": "4.19"
+      },
+      "details": [
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "4",
+          "unitCost": "3.99",
+          "totalCost": "15.96",
+          "totalTax": "1.60",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "3",
+          "unitCost": "2.99",
+          "totalCost": "8.97",
+          "totalTax": "0.90",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        }
+      ],
+      "_lsn": 3368553
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+    "offset": "3064",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 2,
+    "serializedSizeInBytes": 1799,
+    "systemProperties": {
+      "x-opt-sequence-number": 2,
+      "x-opt-offset": "3064",
+      "x-opt-enqueued-time": "2018-10-26T16:20:47.536Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+      "SequenceNumber": 2,
+      "Offset": "3064"
+    }
+  },
+  {
+    "body": {
+      "id": "73c2b1ab-c5b1-46ad-a0dc-a92157f2deb9",
+      "_rid": "TjsbAO+SCJzTZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzTZjMAAAAAAA==/",
+      "_ts": 1540573623,
+      "_etag": "\"00001d0c-0000-0000-0000-5bd349b70000\"",
+      "header": {
+        "salesNumber": "94d12da5-a569-46b5-fbb7-cbc20dda27e5",
+        "dateTime": "2018-10-26 13:03:34",
+        "locationId": "HHH888",
+        "locationName": "Fabrikam Residences",
+        "locationAddress": "545 Main Street",
+        "locationPostcode": "98052",
+        "totalCost": "69.93",
+        "totalTax": "6.99"
+      },
+      "details": [
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "3",
+          "unitCost": "15.99",
+          "totalCost": "47.97",
+          "totalTax": "4.80",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        }
+      ],
+      "_lsn": 3368661
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+    "offset": "12728",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 8,
+    "serializedSizeInBytes": 1765,
+    "systemProperties": {
+      "x-opt-sequence-number": 8,
+      "x-opt-offset": "12728",
+      "x-opt-enqueued-time": "2018-10-26T17:07:07.842Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+      "SequenceNumber": 8,
+      "Offset": "12728"
+    }
+  },
+  {
+    "body": {
+      "id": "103a8d98-13a5-4381-a695-8f1beaa0b23c",
+      "_rid": "TjsbAO+SCJz-ZTMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJz-ZTMAAAAAAA==/",
+      "_ts": 1540569467,
+      "_etag": "\"00001b0b-0000-0000-0000-5bd3397b0000\"",
+      "header": {
+        "salesNumber": "c0b7c3a7-be49-6455-f0f3-cee49492168c",
+        "dateTime": "2018-10-25 17:39:44",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "14.46",
+        "totalTax": "1.45"
+      },
+      "details": [
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "3",
+          "unitCost": "3.49",
+          "totalCost": "10.47",
+          "totalTax": "1.05",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        }
+      ],
+      "_lsn": 3368449
+    },
+    "enqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 1175,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T15:58:33.763Z",
+      "EnqueuedTimeUtc": "2018-10-26T15:58:33.763Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": {
+      "id": "c59d8046-04dc-4d9e-a779-4c724c207927",
+      "_rid": "TjsbAO+SCJzSZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzSZjMAAAAAAA==/",
+      "_ts": 1540573623,
+      "_etag": "\"00001c0c-0000-0000-0000-5bd349b70000\"",
+      "header": {
+        "salesNumber": "cf6d41d0-19ac-c0cc-8a87-05e8deef0354",
+        "dateTime": "2018-10-26 01:01:05",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "32.94",
+        "totalTax": "3.29"
+      },
+      "details": [
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        }
+      ],
+      "_lsn": 3368660
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+    "offset": "11160",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 7,
+    "serializedSizeInBytes": 1529,
+    "systemProperties": {
+      "x-opt-sequence-number": 7,
+      "x-opt-offset": "11160",
+      "x-opt-enqueued-time": "2018-10-26T17:07:07.842Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+      "SequenceNumber": 7,
+      "Offset": "11160"
+    }
+  },
+  {
+    "body": {
+      "id": "c1e9b995-9e2d-4e6f-8b9b-033032e50947",
+      "_rid": "TjsbAO+SCJxmZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxmZjMAAAAAAA==/",
+      "_ts": 1540570843,
+      "_etag": "\"0000850b-0000-0000-0000-5bd33edb0000\"",
+      "header": {
+        "salesNumber": "4e4c41ef-03e7-236e-9d6a-df450736b473",
+        "dateTime": "2018-10-26 10:08:10",
+        "locationId": "KKK111",
+        "locationName": "Margie's Travel",
+        "locationAddress": "675 Tyler Place",
+        "locationPostcode": "98112",
+        "totalCost": "39.96",
+        "totalTax": "4.00"
+      },
+      "details": [
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "2",
+          "unitCost": "15.99",
+          "totalCost": "31.98",
+          "totalTax": "3.20",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        }
+      ],
+      "_lsn": 3368552
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+    "offset": "1832",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 1,
+    "serializedSizeInBytes": 1195,
+    "systemProperties": {
+      "x-opt-sequence-number": 1,
+      "x-opt-offset": "1832",
+      "x-opt-enqueued-time": "2018-10-26T16:20:47.536Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+      "SequenceNumber": 1,
+      "Offset": "1832"
+    }
+  },
+  {
+    "body": {
+      "id": "e88ab2a6-c9d3-4883-892f-3505928ae7d4",
+      "_rid": "TjsbAO+SCJxlZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxlZjMAAAAAAA==/",
+      "_ts": 1540570843,
+      "_etag": "\"0000840b-0000-0000-0000-5bd33edb0000\"",
+      "header": {
+        "salesNumber": "ef406408-1e36-10f7-9033-37fc5fff1352",
+        "dateTime": "2018-10-26 14:56:29",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "37.90",
+        "totalTax": "3.79"
+      },
+      "details": [
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "2",
+          "unitCost": "2.99",
+          "totalCost": "5.98",
+          "totalTax": "0.60",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        }
+      ],
+      "_lsn": 3368551
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 1789,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T16:20:47.536Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:47.536Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": {
+      "id": "37f544cd-6d99-46b0-bf33-855870bb5a12",
+      "_rid": "TjsbAO+SCJzRZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzRZjMAAAAAAA==/",
+      "_ts": 1540573622,
+      "_etag": "\"00001b0c-0000-0000-0000-5bd349b60000\"",
+      "header": {
+        "salesNumber": "785f036c-95e5-3d16-259a-6f26a6e86f67",
+        "dateTime": "2018-10-25 23:19:43",
+        "locationId": "LLL222",
+        "locationName": "Munson's Pickles and Preserves Farm",
+        "locationAddress": "3453 99th Place",
+        "locationPostcode": "98121",
+        "totalCost": "38.91",
+        "totalTax": "3.89"
+      },
+      "details": [
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "2",
+          "unitCost": "3.49",
+          "totalCost": "6.98",
+          "totalTax": "0.70",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        }
+      ],
+      "_lsn": 3368659
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+    "offset": "9312",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 6,
+    "serializedSizeInBytes": 1807,
+    "systemProperties": {
+      "x-opt-sequence-number": 6,
+      "x-opt-offset": "9312",
+      "x-opt-enqueued-time": "2018-10-26T17:07:07.842Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:07:07.842Z",
+      "SequenceNumber": 6,
+      "Offset": "9312"
+    }
+  },
+  {
+    "body": {
+      "id": "21dc3909-27c6-4cb3-b08b-34baabcfb002",
+      "_rid": "TjsbAO+SCJxkZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxkZjMAAAAAAA==/",
+      "_ts": 1540570835,
+      "_etag": "\"0000830b-0000-0000-0000-5bd33ed30000\"",
+      "header": {
+        "salesNumber": "9fb9de2a-4c03-78b9-986e-d87ed8d81558",
+        "dateTime": "2018-10-25 17:09:51",
+        "locationId": "KKK111",
+        "locationName": "Margie's Travel",
+        "locationAddress": "675 Tyler Place",
+        "locationPostcode": "98112",
+        "totalCost": "40.93",
+        "totalTax": "4.09"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "4",
+          "unitCost": "4.99",
+          "totalCost": "19.96",
+          "totalTax": "2.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        }
+      ],
+      "_lsn": 3368550
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+    "offset": "7728",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 5,
+    "serializedSizeInBytes": 1540,
+    "systemProperties": {
+      "x-opt-sequence-number": 5,
+      "x-opt-offset": "7728",
+      "x-opt-enqueued-time": "2018-10-26T16:20:36.954Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+      "SequenceNumber": 5,
+      "Offset": "7728"
+    }
+  },
+  {
+    "body": {
+      "id": "ac3faeb4-6c39-46c4-bc23-d535c58d6ec1",
+      "_rid": "TjsbAO+SCJxjZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxjZjMAAAAAAA==/",
+      "_ts": 1540570835,
+      "_etag": "\"0000820b-0000-0000-0000-5bd33ed30000\"",
+      "header": {
+        "salesNumber": "a7fd97e4-88ed-4089-4765-75646b05a8bf",
+        "dateTime": "2018-10-26 01:25:40",
+        "locationId": "LLL222",
+        "locationName": "Munson's Pickles and Preserves Farm",
+        "locationAddress": "3453 99th Place",
+        "locationPostcode": "98121",
+        "totalCost": "30.45",
+        "totalTax": "3.04"
+      },
+      "details": [
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "1",
+          "unitCost": "3.49",
+          "totalCost": "3.49",
+          "totalTax": "0.35",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "3",
+          "unitCost": "5.99",
+          "totalCost": "17.97",
+          "totalTax": "1.80",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368549
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+    "offset": "6160",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 4,
+    "serializedSizeInBytes": 1526,
+    "systemProperties": {
+      "x-opt-sequence-number": 4,
+      "x-opt-offset": "6160",
+      "x-opt-enqueued-time": "2018-10-26T16:20:36.954Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+      "SequenceNumber": 4,
+      "Offset": "6160"
+    }
+  },
+  {
+    "body": {
+      "id": "c1422b54-7f82-40ae-8abb-8c96aa2539ce",
+      "_rid": "TjsbAO+SCJxiZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxiZjMAAAAAAA==/",
+      "_ts": 1540570835,
+      "_etag": "\"0000810b-0000-0000-0000-5bd33ed30000\"",
+      "header": {
+        "salesNumber": "51de9a93-67b3-e7f9-68c2-1ee39e169702",
+        "dateTime": "2018-10-25 18:11:04",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "23.45",
+        "totalTax": "2.34"
+      },
+      "details": [
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "3",
+          "unitCost": "3.49",
+          "totalCost": "10.47",
+          "totalTax": "1.05",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        }
+      ],
+      "_lsn": 3368548
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+    "offset": "4656",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 3,
+    "serializedSizeInBytes": 1465,
+    "systemProperties": {
+      "x-opt-sequence-number": 3,
+      "x-opt-offset": "4656",
+      "x-opt-enqueued-time": "2018-10-26T16:20:36.954Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+      "SequenceNumber": 3,
+      "Offset": "4656"
+    }
+  },
+  {
+    "body": {
+      "id": "53494511-0d65-46b5-a7b3-cad907db5078",
+      "_rid": "TjsbAO+SCJxhZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxhZjMAAAAAAA==/",
+      "_ts": 1540570832,
+      "_etag": "\"0000800b-0000-0000-0000-5bd33ed00000\"",
+      "header": {
+        "salesNumber": "1ba770e8-15d2-285b-f409-f5e0da51c016",
+        "dateTime": "2018-10-26 09:59:37",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "31.98",
+        "totalTax": "3.20"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "2",
+          "unitCost": "15.99",
+          "totalCost": "31.98",
+          "totalTax": "3.20",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        }
+      ],
+      "_lsn": 3368547
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+    "offset": "3704",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 2,
+    "serializedSizeInBytes": 910,
+    "systemProperties": {
+      "x-opt-sequence-number": 2,
+      "x-opt-offset": "3704",
+      "x-opt-enqueued-time": "2018-10-26T16:20:36.954Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+      "SequenceNumber": 2,
+      "Offset": "3704"
+    }
+  },
+  {
+    "body": {
+      "id": "2b0dc11c-00c2-4706-be99-05897abe4683",
+      "_rid": "TjsbAO+SCJxgZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxgZjMAAAAAAA==/",
+      "_ts": 1540570832,
+      "_etag": "\"00007f0b-0000-0000-0000-5bd33ed00000\"",
+      "header": {
+        "salesNumber": "b911ef16-ea3c-8218-4dde-65c703fdd94f",
+        "dateTime": "2018-10-26 10:56:55",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "47.89",
+        "totalTax": "4.79"
+      },
+      "details": [
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "2",
+          "unitCost": "3.49",
+          "totalCost": "6.98",
+          "totalTax": "0.70",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "4",
+          "unitCost": "5.99",
+          "totalCost": "23.96",
+          "totalTax": "2.40",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "3",
+          "unitCost": "2.99",
+          "totalCost": "8.97",
+          "totalTax": "0.90",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        }
+      ],
+      "_lsn": 3368546
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+    "offset": "1840",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 1,
+    "serializedSizeInBytes": 1825,
+    "systemProperties": {
+      "x-opt-sequence-number": 1,
+      "x-opt-offset": "1840",
+      "x-opt-enqueued-time": "2018-10-26T16:20:36.954Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+      "SequenceNumber": 1,
+      "Offset": "1840"
+    }
+  },
+  {
+    "body": {
+      "id": "1bdcc4e3-e560-4fd8-8fa3-cc80a4b9b76f",
+      "_rid": "TjsbAO+SCJxfZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxfZjMAAAAAAA==/",
+      "_ts": 1540570832,
+      "_etag": "\"00007e0b-0000-0000-0000-5bd33ed00000\"",
+      "header": {
+        "salesNumber": "08af65b6-7f86-af68-2761-029c1ab0944d",
+        "dateTime": "2018-10-26 11:21:24",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "35.92",
+        "totalTax": "3.59"
+      },
+      "details": [
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "2",
+          "unitCost": "2.99",
+          "totalCost": "5.98",
+          "totalTax": "0.60",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        }
+      ],
+      "_lsn": 3368545
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 1800,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T16:20:36.954Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:36.954Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": {
+      "id": "b53e9001-6a4e-4516-9201-61a064a87b1f",
+      "_rid": "TjsbAO+SCJyfZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJyfZzMAAAAAAA==/",
+      "_ts": 1540574252,
+      "_etag": "\"0000eb0c-0000-0000-0000-5bd34c2c0000\"",
+      "header": {
+        "salesNumber": "2849e7ed-9542-2292-9591-8c78d5088de4",
+        "dateTime": "2018-10-26 08:14:29",
+        "locationId": "LLL222",
+        "locationName": "Munson's Pickles and Preserves Farm",
+        "locationAddress": "3453 99th Place",
+        "locationPostcode": "98121",
+        "totalCost": "66.85",
+        "totalTax": "6.68"
+      },
+      "details": [
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "4",
+          "unitCost": "2.99",
+          "totalCost": "11.96",
+          "totalTax": "1.20",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "4",
+          "unitCost": "5.99",
+          "totalCost": "23.96",
+          "totalTax": "2.40",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368865
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:17:35.896Z",
+    "offset": "15720",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 11,
+    "serializedSizeInBytes": 2158,
+    "systemProperties": {
+      "x-opt-sequence-number": 11,
+      "x-opt-offset": "15720",
+      "x-opt-enqueued-time": "2018-10-26T17:17:35.896Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:17:35.896Z",
+      "SequenceNumber": 11,
+      "Offset": "15720"
+    }
+  },
+  {
+    "body": {
+      "id": "04817ba3-1d3e-4d54-9b58-414bfd3293c3",
+      "_rid": "TjsbAO+SCJyeZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJyeZzMAAAAAAA==/",
+      "_ts": 1540574252,
+      "_etag": "\"0000ea0c-0000-0000-0000-5bd34c2c0000\"",
+      "header": {
+        "salesNumber": "647af524-2d59-28bb-6de0-9f27fe205806",
+        "dateTime": "2018-10-25 21:54:51",
+        "locationId": "KKK111",
+        "locationName": "Margie's Travel",
+        "locationAddress": "675 Tyler Place",
+        "locationPostcode": "98112",
+        "totalCost": "63.96",
+        "totalTax": "6.40"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "4",
+          "unitCost": "15.99",
+          "totalCost": "63.96",
+          "totalTax": "6.40",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        }
+      ],
+      "_lsn": 3368864
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:17:35.896Z",
+    "offset": "14792",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 10,
+    "serializedSizeInBytes": 884,
+    "systemProperties": {
+      "x-opt-sequence-number": 10,
+      "x-opt-offset": "14792",
+      "x-opt-enqueued-time": "2018-10-26T17:17:35.896Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:17:35.896Z",
+      "SequenceNumber": 10,
+      "Offset": "14792"
+    }
+  },
+  {
+    "body": {
+      "id": "10dcd804-a39b-4b68-9bbc-3b1520ed2521",
+      "_rid": "TjsbAO+SCJydZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJydZzMAAAAAAA==/",
+      "_ts": 1540574252,
+      "_etag": "\"0000e90c-0000-0000-0000-5bd34c2c0000\"",
+      "header": {
+        "salesNumber": "d9a275cd-bf4a-7aea-0d3f-5052dec0a6d3",
+        "dateTime": "2018-10-26 09:19:18",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "47.94",
+        "totalTax": "4.79"
+      },
+      "details": [
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "2",
+          "unitCost": "15.99",
+          "totalCost": "31.98",
+          "totalTax": "3.20",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        }
+      ],
+      "_lsn": 3368863
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:17:35.896Z",
+    "offset": "13288",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 9,
+    "serializedSizeInBytes": 1467,
+    "systemProperties": {
+      "x-opt-sequence-number": 9,
+      "x-opt-offset": "13288",
+      "x-opt-enqueued-time": "2018-10-26T17:17:35.896Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:17:35.896Z",
+      "SequenceNumber": 9,
+      "Offset": "13288"
+    }
+  },
+  {
+    "body": {
+      "id": "5b88a36e-31ac-495c-9525-3302bc203058",
+      "_rid": "TjsbAO+SCJw1ZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw1ZzMAAAAAAA==/",
+      "_ts": 1540573936,
+      "_etag": "\"0000800c-0000-0000-0000-5bd34af00000\"",
+      "header": {
+        "salesNumber": "f7896d13-356e-085f-3d71-848f0a39a009",
+        "dateTime": "2018-10-25 19:34:59",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "80.93",
+        "totalTax": "8.09"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "4",
+          "unitCost": "15.99",
+          "totalCost": "63.96",
+          "totalTax": "6.40",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "1",
+          "unitCost": "4.99",
+          "totalCost": "4.99",
+          "totalTax": "0.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        }
+      ],
+      "_lsn": 3368760
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:12:19.547Z",
+    "offset": "11704",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 8,
+    "serializedSizeInBytes": 1541,
+    "systemProperties": {
+      "x-opt-sequence-number": 8,
+      "x-opt-offset": "11704",
+      "x-opt-enqueued-time": "2018-10-26T17:12:19.547Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:12:19.547Z",
+      "SequenceNumber": 8,
+      "Offset": "11704"
+    }
+  },
+  {
+    "body": {
+      "id": "a451acb1-5f0e-4051-92ca-2078060fc4d0",
+      "_rid": "TjsbAO+SCJw2ZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw2ZzMAAAAAAA==/",
+      "_ts": 1540573936,
+      "_etag": "\"0000810c-0000-0000-0000-5bd34af00000\"",
+      "header": {
+        "salesNumber": "de7e77fe-36f7-1d5f-e58d-f0fcfef2cf36",
+        "dateTime": "2018-10-26 10:45:18",
+        "locationId": "III999",
+        "locationName": "Fourth Coffee",
+        "locationAddress": "32108 18th Street",
+        "locationPostcode": "98112",
+        "totalCost": "4.49",
+        "totalTax": "0.45"
+      },
+      "details": [
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "1",
+          "unitCost": "4.49",
+          "totalCost": "4.49",
+          "totalTax": "0.45",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        }
+      ],
+      "_lsn": 3368759
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:12:19.547Z",
+    "offset": "10744",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 7,
+    "serializedSizeInBytes": 918,
+    "systemProperties": {
+      "x-opt-sequence-number": 7,
+      "x-opt-offset": "10744",
+      "x-opt-enqueued-time": "2018-10-26T17:12:19.547Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:12:19.547Z",
+      "SequenceNumber": 7,
+      "Offset": "10744"
+    }
+  },
+  {
+    "body": {
+      "id": "225e5f4a-acfb-4a0d-9927-3c1e7f37ba63",
+      "_rid": "TjsbAO+SCJw0ZzMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJw0ZzMAAAAAAA==/",
+      "_ts": 1540573936,
+      "_etag": "\"00007f0c-0000-0000-0000-5bd34af00000\"",
+      "header": {
+        "salesNumber": "e80dfc70-d631-5c69-7a39-76ad8e5e5071",
+        "dateTime": "2018-10-25 17:37:55",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "87.36",
+        "totalTax": "8.74"
+      },
+      "details": [
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "2",
+          "unitCost": "4.99",
+          "totalCost": "9.98",
+          "totalTax": "1.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "3",
+          "unitCost": "15.99",
+          "totalCost": "47.97",
+          "totalTax": "4.80",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "6",
+          "unitCost": "2.99",
+          "totalCost": "17.94",
+          "totalTax": "1.79",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "1",
+          "unitCost": "3.49",
+          "totalCost": "3.49",
+          "totalTax": "0.35",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        }
+      ],
+      "_lsn": 3368758
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:12:19.547Z",
+    "offset": "8680",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 6,
+    "serializedSizeInBytes": 2027,
+    "systemProperties": {
+      "x-opt-sequence-number": 6,
+      "x-opt-offset": "8680",
+      "x-opt-enqueued-time": "2018-10-26T17:12:19.547Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:12:19.547Z",
+      "SequenceNumber": 6,
+      "Offset": "8680"
+    }
+  },
+  {
+    "body": {
+      "id": "8ad416f4-eaea-4b96-82ac-cf2aa510109c",
+      "_rid": "TjsbAO+SCJzKZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzKZjMAAAAAAA==/",
+      "_ts": 1540573606,
+      "_etag": "\"0000140c-0000-0000-0000-5bd349a60000\"",
+      "header": {
+        "salesNumber": "63468837-7780-e3cd-84eb-62773ad6b0bf",
+        "dateTime": "2018-10-26 09:36:14",
+        "locationId": "KKK111",
+        "locationName": "Margie's Travel",
+        "locationAddress": "675 Tyler Place",
+        "locationPostcode": "98112",
+        "totalCost": "28.95",
+        "totalTax": "2.90"
+      },
+      "details": [
+        {
+          "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+          "quantity": "2",
+          "unitCost": "5.99",
+          "totalCost": "11.98",
+          "totalTax": "1.20",
+          "productName": "Tropical Mango",
+          "productDescription": "You know what they say... It takes two.  You.  And this ice cream."
+        },
+        {
+          "productId": "551a9be9-7f1c-447d-83ee-b18f5a6fb018",
+          "quantity": "2",
+          "unitCost": "3.99",
+          "totalCost": "7.98",
+          "totalTax": "0.80",
+          "productName": "Matcha Green Tea",
+          "productDescription": "Green tea ice cream is good for you because it is green."
+        },
+        {
+          "productId": "65ab124a-9b2c-4294-a52d-18839364ef15",
+          "quantity": "1",
+          "unitCost": "8.99",
+          "totalCost": "8.99",
+          "totalTax": "0.90",
+          "productName": "Durian Durian",
+          "productDescription": "Smells suspect but tastes... also suspect."
+        }
+      ],
+      "_lsn": 3368652
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:06:47.671Z",
+    "offset": "7104",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 5,
+    "serializedSizeInBytes": 1539,
+    "systemProperties": {
+      "x-opt-sequence-number": 5,
+      "x-opt-offset": "7104",
+      "x-opt-enqueued-time": "2018-10-26T17:06:47.671Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:06:47.671Z",
+      "SequenceNumber": 5,
+      "Offset": "7104"
+    }
+  },
+  {
+    "body": {
+      "id": "635ce6e5-5e36-4615-8944-cf5ad781ead6",
+      "_rid": "TjsbAO+SCJzJZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzJZjMAAAAAAA==/",
+      "_ts": 1540573606,
+      "_etag": "\"0000130c-0000-0000-0000-5bd349a60000\"",
+      "header": {
+        "salesNumber": "ffcfec99-41a3-7c96-c2ea-004e4f967c8f",
+        "dateTime": "2018-10-26 10:37:02",
+        "locationId": "MMM333",
+        "locationName": "Southridge Video",
+        "locationAddress": "53244 Rooster Lane",
+        "locationPostcode": "98101",
+        "totalCost": "38.91",
+        "totalTax": "3.89"
+      },
+      "details": [
+        {
+          "productId": "4c25613a-a3c2-4ef3-8e02-9c335eb23204",
+          "quantity": "2",
+          "unitCost": "3.49",
+          "totalCost": "6.98",
+          "totalTax": "0.70",
+          "productName": "Truly Orange-inal",
+          "productDescription": "Made from concentrate."
+        },
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "3",
+          "unitCost": "4.99",
+          "totalCost": "14.97",
+          "totalTax": "1.50",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "76065ecd-8a14-426d-a4cd-abbde2acbb10",
+          "quantity": "2",
+          "unitCost": "4.49",
+          "totalCost": "8.98",
+          "totalTax": "0.90",
+          "productName": "Gone Bananas",
+          "productDescription": "I'm not sure how appealing banana ice cream really is."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        },
+        {
+          "productId": "e4e7068e-500e-4a00-8be4-630d4594735b",
+          "quantity": "1",
+          "unitCost": "3.99",
+          "totalCost": "3.99",
+          "totalTax": "0.40",
+          "productName": "It's Grape!",
+          "productDescription": "Unraisinably good ice cream."
+        }
+      ],
+      "_lsn": 3368651
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:06:47.671Z",
+    "offset": "4968",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 4,
+    "serializedSizeInBytes": 2095,
+    "systemProperties": {
+      "x-opt-sequence-number": 4,
+      "x-opt-offset": "4968",
+      "x-opt-enqueued-time": "2018-10-26T17:06:47.671Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:06:47.671Z",
+      "SequenceNumber": 4,
+      "Offset": "4968"
+    }
+  },
+  {
+    "body": {
+      "id": "2d1c4052-9c07-489f-9541-948641a3b03b",
+      "_rid": "TjsbAO+SCJzIZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzIZjMAAAAAAA==/",
+      "_ts": 1540573606,
+      "_etag": "\"0000120c-0000-0000-0000-5bd349a60000\"",
+      "header": {
+        "salesNumber": "5ab209f9-ed22-1c22-7d71-ba621a7b6c2c",
+        "dateTime": "2018-10-26 16:32:33",
+        "locationId": "FFF666",
+        "locationName": "Alpine Ski House",
+        "locationAddress": "10 Scott Road",
+        "locationPostcode": "98133",
+        "totalCost": "21.95",
+        "totalTax": "2.20"
+      },
+      "details": [
+        {
+          "productId": "e94d85bc-7bd0-44f3-854e-d8cd70348b63",
+          "quantity": "2",
+          "unitCost": "4.99",
+          "totalCost": "9.98",
+          "totalTax": "1.00",
+          "productName": "Just Peachy",
+          "productDescription": "Your taste buds and this ice cream were made for peach other."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "3",
+          "unitCost": "3.99",
+          "totalCost": "11.97",
+          "totalTax": "1.20",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        }
+      ],
+      "_lsn": 3368650
+    },
+    "enqueuedTimeUtc": "2018-10-26T17:06:47.671Z",
+    "offset": "3696",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 3,
+    "serializedSizeInBytes": 1229,
+    "systemProperties": {
+      "x-opt-sequence-number": 3,
+      "x-opt-offset": "3696",
+      "x-opt-enqueued-time": "2018-10-26T17:06:47.671Z",
+      "EnqueuedTimeUtc": "2018-10-26T17:06:47.671Z",
+      "SequenceNumber": 3,
+      "Offset": "3696"
+    }
+  },
+  {
+    "body": {
+      "id": "07df41bf-7651-4cce-a9c8-eec3247c186d",
+      "_rid": "TjsbAO+SCJxbZjMAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJxbZjMAAAAAAA==/",
+      "_ts": 1540570821,
+      "_etag": "\"00007a0b-0000-0000-0000-5bd33ec50000\"",
+      "header": {
+        "salesNumber": "60854426-f6dc-a4e2-9b69-5d254a5c7bf0",
+        "dateTime": "2018-10-25 19:59:37",
+        "locationId": "JJJ000",
+        "locationName": "Liberty's Delightful Sinful Bakery & Cafe",
+        "locationAddress": "441 36th Street",
+        "locationPostcode": "98133",
+        "totalCost": "78.88",
+        "totalTax": "7.89"
+      },
+      "details": [
+        {
+          "productId": "0f5a0fe8-4506-4332-969e-699a693334a8",
+          "quantity": "3",
+          "unitCost": "15.99",
+          "totalCost": "47.97",
+          "totalTax": "4.80",
+          "productName": "Beer",
+          "productDescription": "Hey this isn't ice cream!"
+        },
+        {
+          "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+          "quantity": "5",
+          "unitCost": "2.99",
+          "totalCost": "14.95",
+          "totalTax": "1.50",
+          "productName": "French Vanilla",
+          "productDescription": "It's vanilla ice cream."
+        },
+        {
+          "productId": "75542e38-563f-436f-adeb-f426f1dabb5c",
+          "quantity": "4",
+          "unitCost": "3.99",
+          "totalCost": "15.96",
+          "totalTax": "1.60",
+          "productName": "Starfruit Explosion",
+          "productDescription": "This starfruit ice cream is out of this world!"
+        }
+      ],
+      "_lsn": 3368541
+    },
+    "enqueuedTimeUtc": "2018-10-26T16:20:26.308Z",
+    "offset": "2160",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 2,
+    "serializedSizeInBytes": 1492,
+    "systemProperties": {
+      "x-opt-sequence-number": 2,
+      "x-opt-offset": "2160",
+      "x-opt-enqueued-time": "2018-10-26T16:20:26.308Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:26.308Z",
+      "SequenceNumber": 2,
+      "Offset": "2160"
+    }
+  },
+  {
+    "body": "Unable to read the message body.",
+    "enqueuedTimeUtc": "2018-10-26T16:20:26.308Z",
+    "offset": "0",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 0,
+    "serializedSizeInBytes": 1167,
+    "systemProperties": {
+      "x-opt-sequence-number": 0,
+      "x-opt-offset": "0",
+      "x-opt-enqueued-time": "2018-10-26T16:20:26.308Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:26.308Z",
+      "SequenceNumber": 0,
+      "Offset": "0"
+    }
+  },
+  {
+    "body": "Unable to read the message body.",
+    "enqueuedTimeUtc": "2018-10-26T16:20:26.308Z",
+    "offset": "1208",
+    "partitionKey": null,
+    "properties": {},
+    "sequenceNumber": 1,
+    "serializedSizeInBytes": 911,
+    "systemProperties": {
+      "x-opt-sequence-number": 1,
+      "x-opt-offset": "1208",
+      "x-opt-enqueued-time": "2018-10-26T16:20:26.308Z",
+      "EnqueuedTimeUtc": "2018-10-26T16:20:26.308Z",
+      "SequenceNumber": 1,
+      "Offset": "1208"
+    }
+  }
+]

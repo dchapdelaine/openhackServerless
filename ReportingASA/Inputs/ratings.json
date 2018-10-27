@@ -1,0 +1,25 @@
+﻿{
+  "Sample": "{\r\n  \"id\": \"79342e4a-5a71-4e67-b43b-e572c26a15e2\",\r\n  \"_rid\": \"TjsbAM7cwgyAHAAAAAAAAA==\",\r\n  \"_self\": \"dbs/TjsbAA==/colls/TjsbAM7cwgw=/docs/TjsbAM7cwgyAHAAAAAAAAA==/\",\r\n  \"_ts\": 1540570824,\r\n  \"_etag\": \"\\\"01001264-0000-0000-0000-5bd33ec80000\\\"\",\r\n  \"sentimentScore\": 0.91841316223144531,\r\n  \"locationName\": \"Southridge Video\",\r\n  \"productId\": \"75542e38-563f-436f-adeb-f426f1dabb5c\",\r\n  \"rating\": \"4\",\r\n  \"timestamp\": \"10/26/2018 4:20:24 PM\",\r\n  \"userId\": \"ed414804-ed3d-4ec3-a283-f94ee86f3e23\",\r\n  \"userNotes\": \"I'll be back for more.\",\r\n  \"_lsn\": 7297\r\n}",
+  "EventHubProperties": {
+    "ConsumerGroupName": null,
+    "EventHubName": "changeeventratings",
+    "ServiceBusNamespace": "byocns",
+    "SharedAccessPolicyKey": null,
+    "SharedAccessPolicyName": "RootManageSharedAccessKey"
+  },
+  "BlobStorageProperties": null,
+  "IoTHubProperties": null,
+  "BlobReferenceProperties": null,
+  "DataSourceCredentialDomain": "4e14158e-2955-4f1e-8566-f4024c2d15cd.StreamAnalyticsCredential",
+  "Name": "ratings",
+  "Type": "Data Stream",
+  "DataSourceType": "Event Hub",
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": null
+  },
+  "CompresssionType": "None",
+  "ScriptType": "Input"
+}

@@ -1,0 +1,25 @@
+﻿{
+  "Sample": "{\r\n  \"id\": \"WSR898\",\r\n  \"_rid\": \"TjsbAKKrieRTOgAAAAAAAA==\",\r\n  \"_self\": \"dbs/TjsbAA==/colls/TjsbAKKrieQ=/docs/TjsbAKKrieRTOgAAAAAAAA==/\",\r\n  \"_ts\": 1540570749,\r\n  \"_etag\": \"\\\"00002809-0000-0000-0000-5bd33e7d0000\\\"\",\r\n  \"dateTime\": \"10/18/2018 6:49:00 AM\",\r\n  \"lineItems\": [\r\n    {\r\n      \"productDescription\": \"It's vanilla ice cream.\",\r\n      \"productId\": \"80bab959-ef8b-4ae3-8bf2-e876d77277b6\",\r\n      \"productName\": \"French Vanilla\",\r\n      \"quantity\": 30,\r\n      \"totalCost\": 89.7,\r\n      \"totalTax\": 8.97,\r\n      \"unitCost\": 2.99\r\n    }\r\n  ],\r\n  \"locationId\": \"BBB222\",\r\n  \"locationName\": \"Northwind Traders\",\r\n  \"locationPostCode\": \"98101\",\r\n  \"poNumber\": \"WSR898\",\r\n  \"totalCost\": 89.7,\r\n  \"totalTax\": 8.97,\r\n  \"_lsn\": 15056\r\n}",
+  "EventHubProperties": {
+    "ConsumerGroupName": null,
+    "EventHubName": "changeeventorders",
+    "ServiceBusNamespace": "byocns",
+    "SharedAccessPolicyKey": null,
+    "SharedAccessPolicyName": "RootManageSharedAccessKey"
+  },
+  "BlobStorageProperties": null,
+  "IoTHubProperties": null,
+  "BlobReferenceProperties": null,
+  "DataSourceCredentialDomain": "bce13d08-11f3-47e5-89d9-a6e5bb67687b.StreamAnalyticsCredential",
+  "Name": "orders",
+  "Type": "Data Stream",
+  "DataSourceType": "Event Hub",
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": null
+  },
+  "CompresssionType": "None",
+  "ScriptType": "Input"
+}

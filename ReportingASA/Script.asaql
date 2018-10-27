@@ -1,0 +1,43 @@
+﻿WITH orderDetails AS
+(
+    SELECT 
+        flat.ArrayValue.productId AS productId,
+        flat.ArrayValue.totalCost AS totalCost
+    FROM
+        orders AS o
+        CROSS APPLY GetArrayElements(o.body.lineItems) AS flat
+),
+saleDetails AS
+(
+    SELECT 
+        flat.ArrayValue.productId AS productId,
+        flat.ArrayValue.totalCost AS totalCost
+    FROM
+        sales AS s
+        CROSS APPLY GetArrayElements(s.body.details) AS flat
+),
+ratingsExpanded AS
+(
+    SELECT 
+        r.body.productId AS productId,
+        r.body.sentimentScore AS sentimentScore
+    FROM
+        ratings AS r
+)
+
+SELECT
+    AVG(r.sentimentScore) as score,
+    SUM(s.totalCost) as totalCostSales,
+    SUM(o.totalCost) as totalCostOrders,
+    r.productId as productId
+INTO reports
+FROM orderDetails o
+JOIN ratingsExpanded r
+ON r.productId = o.productId
+AND DATEDIFF(minute,r,o) BETWEEN 0 AND 5
+JOIN saleDetails s
+ON s.productId = o.productId
+AND DATEDIFF(minute,s,o) BETWEEN 0 AND 5
+GROUP BY
+    r.productId, 
+    TumblingWindow(minute, 5)
