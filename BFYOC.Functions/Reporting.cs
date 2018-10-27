@@ -132,7 +132,7 @@ namespace BFYOC.Functions
                         reportSS.WriteLine($"{orderedReportData.TotalSales:C} - {ProductIdToProductName(orderedReportData.ProductId)}");
                     }
 
-                    var blob = containerRef.GetBlockBlobReference(DateTime.Parse(reportData.Key).ToString("yyyyMMdd_HHmmss") + ".json");
+                    var blob = containerRef.GetBlockBlobReference(DateTime.Parse(reportData.Key).ToString("yyyyMMdd_HHmmss") + ".txt");
                     await blob.UploadTextAsync(reportSS.ToString());
                 }
             }
