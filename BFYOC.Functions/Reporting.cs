@@ -89,7 +89,7 @@ namespace BFYOC.Functions
 
         [FunctionName("ReportingSales")]
         public static async Task ReportingSales(
-            [EventHubTrigger("reports", Connection = "EventHubConnection")]string reportDataEvent,
+            [EventHubTrigger("reports", Connection = "EventHubConnection", ConsumerGroup = "salesreport")]string reportDataEvent,
             TraceWriter log)
         {
             var client = ReportStorageAccount.CreateCloudBlobClient();
@@ -99,10 +99,10 @@ namespace BFYOC.Functions
                 var reportDataByTime = csvReader.GetRecords<dynamic>()
                     .GroupBy(r => (string)r.time, r => new
                     {
-                        Time = r.datetime,
-                        Score = r.score,
-                        TotalSales = r.totalcostsales,
-                        TotalOrders = r.totalcostorders,
+                        Time = r.time,
+                        Score = double.Parse(r.score),
+                        TotalSales = double.Parse(r.totalcostsales),
+                        TotalOrders = double.Parse(r.totalcostorders),
                         ProductId = r.productid
                     });
 
@@ -115,7 +115,7 @@ namespace BFYOC.Functions
                     reportSS.WriteLine($"Sentiment score by ice cream");
                     foreach (var orderedReportData in reportData.OrderByDescending(r => r.Score))
                     {
-                        reportSS.WriteLine($"{orderedReportData.Score} - {ProductIdToProductName(orderedReportData.ProductId)}");
+                        reportSS.WriteLine($"{orderedReportData.Score:F3} - {ProductIdToProductName(orderedReportData.ProductId)}");
                     }
 
                     reportSS.WriteLine();
@@ -132,7 +132,7 @@ namespace BFYOC.Functions
                         reportSS.WriteLine($"{orderedReportData.TotalSales:C} - {ProductIdToProductName(orderedReportData.ProductId)}");
                     }
 
-                    var blob = containerRef.GetBlockBlobReference(DateTime.Parse(reportData.Key).ToString("YYYYMMDD_HHMMSS") + ".json");
+                    var blob = containerRef.GetBlockBlobReference(DateTime.Parse(reportData.Key).ToString("yyyyMMdd_HHmmss") + ".json");
                     await blob.UploadTextAsync(reportSS.ToString());
                 }
             }
