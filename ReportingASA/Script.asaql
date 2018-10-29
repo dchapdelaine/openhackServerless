@@ -5,7 +5,7 @@
         flat.ArrayValue.totalCost AS totalCost
     FROM
         orders AS o
-        CROSS APPLY GetArrayElements(o.body.lineItems) AS flat
+        CROSS APPLY GetArrayElements(o.lineItems) AS flat
 ),
 saleDetails AS
 (
@@ -14,25 +14,18 @@ saleDetails AS
         flat.ArrayValue.totalCost AS totalCost
     FROM
         sales AS s
-        CROSS APPLY GetArrayElements(s.body.details) AS flat
-),
-ratingsExpanded AS
-(
-    SELECT 
-        r.body.productId AS productId,
-        r.body.sentimentScore AS sentimentScore
-    FROM
-        ratings AS r
+        CROSS APPLY GetArrayElements(s.details) AS flat
 )
 
 SELECT
+    System.Timestamp time,
     AVG(r.sentimentScore) as score,
     SUM(s.totalCost) as totalCostSales,
     SUM(o.totalCost) as totalCostOrders,
     r.productId as productId
 INTO reports
 FROM orderDetails o
-JOIN ratingsExpanded r
+JOIN ratings r
 ON r.productId = o.productId
 AND DATEDIFF(minute,r,o) BETWEEN 0 AND 5
 JOIN saleDetails s
