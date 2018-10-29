@@ -60,4 +60,4 @@ SELECT
         ELSE r.totalCostOrders
     END AS totalCostOrders
 INTO reports
-FROM reportdata r
+FROM reportData r
