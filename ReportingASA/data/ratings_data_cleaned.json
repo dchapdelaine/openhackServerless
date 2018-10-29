@@ -1,0 +1,32 @@
+[
+    {
+      "id": "6d43f954-5290-426f-8e18-03775de0ffde",
+      "_rid": "TjsbAM7cwgxgHQAAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAM7cwgw=/docs/TjsbAM7cwgxgHQAAAAAAAA==/",
+      "_ts": 1540574356,
+      "_etag": "\"0100c487-0000-0000-0000-5bd34c940000\"",
+      "sentimentScore": 0.96321725845336914,
+      "locationName": "Munson's Pickles and Preserves Farm",
+      "productId": "80bab959-ef8b-4ae3-8bf2-e876d77277b6",
+      "rating": "3",
+      "timestamp": "10/26/2018 5:19:16 PM",
+      "userId": "ed414804-ed3d-4ec3-a283-f94ee86f3e23",
+      "userNotes": "All in all... not bad. I've had better.",
+      "_lsn": 7521
+    },
+    {
+      "id": "c5ebf3a7-7088-4aa8-a358-9d2835a48313",
+      "_rid": "TjsbAM7cwgxGHQAAAAAAAA==",
+      "_self": "dbs/TjsbAA==/colls/TjsbAM7cwgw=/docs/TjsbAM7cwgxGHQAAAAAAAA==/",
+      "_ts": 1540574252,
+      "_etag": "\"01008386-0000-0000-0000-5bd34c2c0000\"",
+      "sentimentScore": 0.1590690016746521,
+      "locationName": "Munson's Pickles and Preserves Farm",
+      "productId": "288fd748-ad2b-4417-83b9-7aa5be9cff22",
+      "rating": "3",
+      "timestamp": "10/26/2018 5:17:32 PM",
+      "userId": "ed414804-ed3d-4ec3-a283-f94ee86f3e23",
+      "userNotes": "Some more thought needs to go into this ice cream. Probably overpriced for what it is.",
+      "_lsn": 7495
+    }
+]

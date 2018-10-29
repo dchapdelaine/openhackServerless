@@ -22,6 +22,15 @@
     <Script Include="Script.asaql" />
   </ItemGroup>
   <ItemGroup>
+    <Configure Include="Inputs\local_orders.json">
+      <SubType>InputMock</SubType>
+    </Configure>
+    <Configure Include="Inputs\local_ratings.json">
+      <SubType>InputMock</SubType>
+    </Configure>
+    <Configure Include="Inputs\local_sales.json">
+      <SubType>InputMock</SubType>
+    </Configure>
     <Configure Include="Inputs\orders.json">
       <SubType>Input</SubType>
     </Configure>
@@ -31,7 +40,7 @@
     <Configure Include="Inputs\sales.json">
       <SubType>Input</SubType>
     </Configure>
-    <Configure Include="Outputs\Output.json">
+    <Configure Include="Outputs\reports.json">
       <SubType>Output</SubType>
     </Configure>
     <Configure Include="JobConfig.json">

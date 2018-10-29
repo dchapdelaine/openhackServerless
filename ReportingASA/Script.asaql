@@ -15,22 +15,49 @@ saleDetails AS
     FROM
         sales AS s
         CROSS APPLY GetArrayElements(s.details) AS flat
+),
+reportData AS 
+(
+    SELECT
+        System.Timestamp time,
+        AVG(r.sentimentScore) AS score,
+        SUM(s.totalCost) AS totalCostSales,
+        SUM(o.totalCost) AS totalCostOrders,
+        r.productId AS r_productId,
+        s.productId AS s_productId,
+        o.productId AS o_productId
+    FROM orderDetails o
+    LEFT OUTER JOIN ratings r
+    ON r.productId = o.productId
+    AND DATEDIFF(minute,r,o) BETWEEN 0 AND 5
+    LEFT OUTER JOIN saleDetails s
+    ON s.productId = o.productId
+    AND DATEDIFF(minute,s,o) BETWEEN 0 AND 5
+    GROUP BY
+        r.productId,
+        s.productId,
+        o.productId,
+        TumblingWindow(minute, 5)
 )
 
 SELECT
-    System.Timestamp time,
-    AVG(r.sentimentScore) as score,
-    SUM(s.totalCost) as totalCostSales,
-    SUM(o.totalCost) as totalCostOrders,
-    r.productId as productId
+    time,
+    CASE
+        WHEN r.s_productId != NULL THEN r.s_productId
+        WHEN r.r_productId != NULL THEN r.r_productId
+        ELSE r.o_productId
+    END AS productId,
+    CASE
+        WHEN r.score IS NULL THEN -1
+        ELSE r.score
+    END AS score,
+    CASE
+        WHEN r.totalCostSales IS NULL THEN 0
+        ELSE r.totalCostSales
+    END AS totalCostSales,
+    CASE
+        WHEN r.totalCostOrders IS NULL THEN 0
+        ELSE r.totalCostOrders
+    END AS totalCostOrders
 INTO reports
-FROM orderDetails o
-JOIN ratings r
-ON r.productId = o.productId
-AND DATEDIFF(minute,r,o) BETWEEN 0 AND 5
-JOIN saleDetails s
-ON s.productId = o.productId
-AND DATEDIFF(minute,s,o) BETWEEN 0 AND 5
-GROUP BY
-    r.productId, 
-    TumblingWindow(minute, 5)
+FROM reportdata r

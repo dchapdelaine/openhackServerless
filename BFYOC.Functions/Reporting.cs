@@ -113,7 +113,7 @@ namespace BFYOC.Functions
 
                     reportSS.WriteLine();
                     reportSS.WriteLine($"Sentiment score by ice cream");
-                    foreach (var orderedReportData in reportData.OrderByDescending(r => r.Score))
+                    foreach (var orderedReportData in reportData.Where(r => r.Score >= 0).OrderByDescending(r => r.Score))
                     {
                         reportSS.WriteLine($"{orderedReportData.Score:F3} - {ProductIdToProductName(orderedReportData.ProductId)}");
                     }

@@ -1,0 +1,8 @@
+﻿{
+  "InputAlias": "ratings",
+  "Type": "Data Stream",
+  "Format": "Json",
+  "FilePath": "E:\\dev\\openhackServerless\\ReportingASA\\data\\ratings_data_cleaned.json",
+  "Sample": "{\r\n  \"id\": \"6d43f954-5290-426f-8e18-03775de0ffde\",\r\n  \"_rid\": \"TjsbAM7cwgxgHQAAAAAAAA==\",\r\n  \"_self\": \"dbs/TjsbAA==/colls/TjsbAM7cwgw=/docs/TjsbAM7cwgxgHQAAAAAAAA==/\",\r\n  \"_ts\": 1540574356,\r\n  \"_etag\": \"\\\"0100c487-0000-0000-0000-5bd34c940000\\\"\",\r\n  \"sentimentScore\": 0.96321725845336914,\r\n  \"locationName\": \"Munson's Pickles and Preserves Farm\",\r\n  \"productId\": \"80bab959-ef8b-4ae3-8bf2-e876d77277b6\",\r\n  \"rating\": \"3\",\r\n  \"timestamp\": \"10/26/2018 5:19:16 PM\",\r\n  \"userId\": \"ed414804-ed3d-4ec3-a283-f94ee86f3e23\",\r\n  \"userNotes\": \"All in all... not bad. I've had better.\",\r\n  \"_lsn\": 7521\r\n}",
+  "ScriptType": "InputMock"
+}

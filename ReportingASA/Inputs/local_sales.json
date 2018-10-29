@@ -1,0 +1,8 @@
+﻿{
+  "InputAlias": "sales",
+  "Type": "Data Stream",
+  "Format": "Json",
+  "FilePath": "E:\\dev\\openhackServerless\\ReportingASA\\data\\sales_data_cleaned.json",
+  "Sample": "{\r\n  \"id\": \"59da7182-2cc7-421c-9bd8-32b69fccc00a\",\r\n  \"_rid\": \"TjsbAO+SCJzzZjMAAAAAAA==\",\r\n  \"_self\": \"dbs/TjsbAA==/colls/TjsbAO+SCJw=/docs/TjsbAO+SCJzzZjMAAAAAAA==/\",\r\n  \"_ts\": 1540573725,\r\n  \"_etag\": \"\\\"00003d0c-0000-0000-0000-5bd34a1d0000\\\"\",\r\n  \"header\": {\r\n    \"salesNumber\": \"74107f08-693b-f60e-830d-3d8b8378adef\",\r\n    \"dateTime\": \"2018-10-25 22:52:07\",\r\n    \"locationId\": \"MMM333\",\r\n    \"locationName\": \"Southridge Video\",\r\n    \"locationAddress\": \"53244 Rooster Lane\",\r\n    \"locationPostcode\": \"98101\",\r\n    \"totalCost\": \"11.97\",\r\n    \"totalTax\": \"1.20\"\r\n  },\r\n  \"details\": [\r\n    {\r\n      \"productId\": \"75542e38-563f-436f-adeb-f426f1dabb5c\",\r\n      \"quantity\": \"3\",\r\n      \"unitCost\": \"3.99\",\r\n      \"totalCost\": \"11.97\",\r\n      \"totalTax\": \"1.20\",\r\n      \"productName\": \"Starfruit Explosion\",\r\n      \"productDescription\": \"This starfruit ice cream is out of this world!\"\r\n    }\r\n  ],\r\n  \"_lsn\": 3368693\r\n}",
+  "ScriptType": "InputMock"
+}
